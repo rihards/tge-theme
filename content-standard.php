@@ -24,8 +24,8 @@
 		<?php if (is_search()) : # Only display Excerpts for Search ?>
 			<?php the_excerpt(); ?>
 		<?php else : ?>
-			<?php the_content('Read more'); ?>
-			<?php wp_link_pages(array( 'before' => '<div class="page-links">' . 'Pages:', 'after' => '</div>')); ?>
+			<?php the_content(__('Read more', 'tge-theme')); ?>
+			<?php wp_link_pages(array( 'before' => '<div class="page-links">' . __('Pages:', 'tge-theme'), 'after' => '</div>')); ?>
 		<?php endif; ?>
 		</div>
 	</div>

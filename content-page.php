@@ -10,6 +10,6 @@
 		?>
 	</header>
 	<div class="entry-content">
-		<?php the_content('Read more'); ?>
+		<?php the_content(__('Read more', 'tge-theme')); ?>
 	</div>
 </article>
