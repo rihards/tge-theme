@@ -3,22 +3,23 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php if (is_single()) : ?>
-		<h1 class="entry-title "><?php the_title(); ?></h1>
-		<?php else : ?>
-		<h1 class="entry-title">
-			<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr(sprintf('Permalink to %s', the_title_attribute('echo=0'))); ?>" rel="bookmark"><?php the_title(); ?></a>
-		</h1>
-		<?php endif; ?>
+		<?php
+		if(is_single()) {
+			the_title('<h1 class="entry-title">', '</h1>');
+		}
+		else {
+			the_title('<h1 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h1>');
+		}
+		?>
 	</header>
 
 	<div class="entry-entry clearfix">
 		<div class="entry-content">
-			<?php the_content('Read more'); ?>
+			<?php the_content(__('Read more', 'tge-theme')); ?>
 		</div>
 	</div>
 
-	<h2 class="entry-title">The Geeks</h2>
+	<h2 class="entry-title"><?php _e('The Geeks', 'tge-theme'); ?></h2>
 
 	<?php
 	$geeks = get_pages(array(
@@ -44,8 +45,9 @@
 		foreach($custom_fields as $field_name => $field_value) {
 			// we currently only support these two? whaaaat?!
 			if(in_array($field_name, array('twitter', 'instagram',))) {
-				$social_media_links .= '<li><a class="link-' . $field_name . '" href="' . $field_value[0] . '" title="Follow ' . $geek->post_title . ' on ' . ucfirst($field_name) . '">';
-				$social_media_links .= 'Follow ' . $geek->post_title . ' on ' . ucfirst($field_name) . '</a></li>';
+				$follow = sprintf(__('Follow %s on %s', 'tge-theme'), $geek->post_title, ucfirst($field_name));
+				$social_media_links .= '<li><a class="link-' . $field_name . '" href="' . $field_value[0] . '" title="' . $follow . '">';
+				$social_media_links .= $follow . '</a></li>';
 			}
 		}
 	?>
