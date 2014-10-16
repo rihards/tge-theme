@@ -20,49 +20,56 @@
 
 	<h2 class="entry-title">The Geeks</h2>
 
-	<div class="entry-entry the-geeks geek-mark clearfix">
-		<div class="geek-image">
-			<img src="<?php echo bloginfo('template_directory'); ?>/images/geek-mark.jpg" alt="Mark" title="Mark Dormand">
-		</div>
+	<?php
+	$geeks = get_pages(array(
+		'child_of' => $post->ID,
+		'sort_column' => 'menu_order',
+		'sort_order' => 'asc',
+	));
+
+	foreach($geeks as $geek) {
+		$content = $geek->post_content;
+		if(empty($content)) {
+			// Don't bother with empty page content
+			continue;
+		}
+		$content = apply_filters('the_content', $content);
+
+		// Geek images, yay, saxay!
+		$geek_image = get_the_post_thumbnail($geek->ID, 'full');
+
+		// Custom fields should have the social media links
+		$custom_fields = get_post_custom($geek->ID);
+		$social_media_links = '';
+		foreach($custom_fields as $field_name => $field_value) {
+			// we currently only support these two? whaaaat?!
+			if(in_array($field_name, array('twitter', 'instagram',))) {
+				$social_media_links .= '<li><a class="link-' . $field_name . '" href="' . $field_value[0] . '" title="Follow ' . $geek->post_title . ' on ' . ucfirst($field_name) . '">';
+				$social_media_links .= 'Follow ' . $geek->post_title . ' on ' . ucfirst($field_name) . '</a></li>';
+			}
+		}
+	?>
+
+	<div id="geek-<?php the_ID(); ?>" <?php post_class(array('the-geeks', 'clearfix', 'geek-' . $geek->post_name,)); ?>>
+		<?php if (!empty($geek_image)) { ?>
+			<div class="geek-image">
+				<?php echo $geek_image; ?>
+			</div>
+		<?php } ?>
 		<div class="geek-info">
-			<h3>Mark Dormand</h3>
-			<p>Graphic designer, amateur potter and writing dabblerist. Based in Manchester, he runs a small studio named <a href="http://studiosquid.co.uk/" title="Squid">Squid</a> and is obsessed with LEGO and dinosaurs.</p>
-			<ul>
-				<li><a class="link-twitter" href="#" title="Follow Mark Dormand on Twitter">Follow Mark Dormand on Twitter</a></li>
-				<li><a class="link-instagram" href="#" title="Follow Mark Dormand on Instagram">Follow Mark Dormand on Instagram</a></li>
-			</ul>
+			<h3><?php echo $geek->post_title; ?></h3>
+			<?php echo $content; ?>
+			<?php if(!empty($social_media_links)) { ?>
+				<ul>
+					<?php echo $social_media_links; ?>
+				</ul>
+			<?php } ?>
 		</div>
 	</div>
-	<div class="entry-entry the-geeks geek-rihards clearfix">
-		<div class="geek-image">
-			<img src="<?php echo bloginfo('template_directory'); ?>/images/geek-rihards.jpg" alt="Rihards" title="Rihards Steinbergs">
-		</div>
-		<div class="geek-info">
-			<h3>Rihards Steinbergs</h3>
-			<p>Web developer and gamer geek. Living in Helsinki and works for Exove. An unhealthy interest in meat products, beer and games. He also made Mark write this.</p>
-			<ul>
-				<li><a class="link-twitter" href="#" title="Follow Rihards Steinbergs on Twitter">Follow Rihards Steinbergs on Twitter</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="entry-entry the-geeks geek-jason clearfix">
-		<div class="geek-image">
-			<img src="<?php echo bloginfo('template_directory'); ?>/images/geek-jason.jpg" alt="Jason" title="Jason Millward">
-		</div>
-		<div class="geek-info">
-			<h3>Jason Millward</h3>
-			<p>Computer man, Oxford resident, Homeworld addict. On and off again EVE sufferer. Rehabilitated angry forum admin. Write this yourself.</p>
-		</div>
-	</div>
-	<div class="entry-entry the-geeks geek-james clearfix">
-		<div class="geek-image">
-			<img src="<?php echo bloginfo('template_directory'); ?>/images/geek-james.jpg" alt="James" title="James Czajka">
-		</div>
-		<div class="geek-info">
-			<h3>James Czajka</h3>
-			<p>Computer man, Oxford resident, Homeworld addict... It’s like you’re clones. And this was the most normal picture I could find of you. Srsly.</p>
-		</div>
-	</div>
+
+	<?php
+	} // Closing div for the geek foreach loop
+	?>
 </article>
 
 <?php endwhile; ?>
