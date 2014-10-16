@@ -22,13 +22,13 @@
 		</nav>
 		<nav id="filter"<?php if(!empty($_GET['tag'])) { echo ' style="display: block;"'; } ?>>
 			<?php
-			# Current tags
+			// Current tags
 			$current_tags = array();
-			if(isset($_GET['tag'])) {
+			if(!empty($_GET['tag'])) {
 				$current_tags = explode(' ', $_GET['tag']);
 			}
 
-			# List all the tags
+			// List all the tags
 			$tags = get_tags();
 			$html = '<ul>';
 			foreach($tags as $tag) {
@@ -38,11 +38,11 @@
 				}
 				$html .= '<li><a href="';
 
-				# If we already have tags, then we add
+				// If we already have tags, then we add
 				if(!empty($_GET['tag'])) {
-					# Are we adding or removing the tag?
+					// Are we adding or removing the tag?
 					if(!empty($active)) {
-						# Do we only have one tag selected?
+						// Do we only have one tag selected?
 						if(count($current_tags) == 1) {
 							$html .= site_url();
 						}
