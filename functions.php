@@ -16,10 +16,10 @@ function tge_scripts_styles() {
 	wp_enqueue_script('jquery');
 
 	# Typekit
-	wp_enqueue_script('typekit-font', '//use.typekit.net/afi6dbc.js', array(), '3', true);
+	wp_enqueue_script('typekit-font', '//use.typekit.net/afi6dbc.js', array(), null, true);
 
 	# The Giant Eye custom js
-	wp_enqueue_script('tge-custom', get_template_directory_uri() . '/js/tge.js', array('jquery'), '3', true);
+	wp_enqueue_script('tge-custom', get_template_directory_uri() . '/js/tge.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'tge_scripts_styles');
 
