@@ -10,22 +10,24 @@
 					'sort_column' => 'menu_order',
 					'sort_order' => 'asc',
 				));
-				foreach($footer_posts as $footer_post) {
-					$content = $footer_post->post_content;
-					if(empty($content)) {
-						// Don't bother with empty page content
-						continue;
-					}
-					$content = apply_filters('the_content', $content);
-				?>
+				if(!empty($footer_posts)) {
+					foreach($footer_posts as $footer_post) {
+						$content = $footer_post->post_content;
+						if(empty($content)) {
+							// Don't bother with empty page content
+							continue;
+						}
+						$content = apply_filters('the_content', $content);
+					?>
 
-					<div class="footer-column">
-						<h3><?php echo $footer_post->post_title; ?></h3>
-						<?php echo $content; ?>
-					</div>
+						<div class="footer-column">
+							<h3><?php echo $footer_post->post_title; ?></h3>
+							<?php echo $content; ?>
+						</div>
 
-				<?php
-				} // Closing div for the footer post foreach loop
+					<?php
+					} // Closing div for the footer post foreach loop
+				} // Closing div for the empty check
 				?>
 			</div>
 		</div>
