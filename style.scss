@@ -555,22 +555,22 @@ footer {
 			@include image-replace($supporting-color, 42px, 42px);
 			text-decoration: none;
 		}
-		#follow-twitter {
+		.follow-twitter {
 			a {
 				background-image: url(images/follow-twitter.png);
 			}
 		}
-		#follow-facebook {
+		.follow-facebook {
 			a {
 				background-image: url(images/follow-facebook.png);
 			}
 		}
-		#follow-flickr {
+		.follow-flickr {
 			a {
 				background-image: url(images/follow-flickr.png);
 			}
 		}
-		#follow-addthis {
+		.follow-addthis {
 			a {
 				background-image: url(images/follow-addthis.png);
 			}

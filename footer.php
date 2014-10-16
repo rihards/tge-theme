@@ -26,13 +26,16 @@
 			</div>
 		</div>
 		<div class="footer-follow">
-			<h3>Follow us</h3>
-			<ul>
-				<li id="follow-twitter"><a href="#" title="Follow The Giant Eye on Twitter">Follow The Giant Eye on Twitter</a></li>
-				<li id="follow-facebook"><a href="#" title="Like The Giant Eye on Facebook">Like The Giant Eye on Facebook</a></li>
-				<li id="follow-flickr"><a href="#" title="Follow The Giant Eye on Flickr">Follow The Giant Eye on Flickr</a></li>
-				<li id="follow-addthis"><a href="#" title="AddThis The Giant Eye">AddThis The Giant Eye</a></li>
-			</ul>
+			<h3><?php _e('Follow us', 'tge-theme'); ?></h3>
+			<?php
+			// The social media links are in a custom menu
+			wp_nav_menu(array(
+				'theme-location' => 'social-media',
+				'menu' => 'social-menu',
+				'container' => false,
+				'menu_class' => 'social-media-footer',
+			));
+			?>
 		</div>
 		<p class="footer-copyright">Copyright &copy; <?php echo date('Y'); ?> The Giant Eye. All article content &copy; of their respective owners.</p>
 	</footer>

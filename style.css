@@ -1,3 +1,4 @@
+@import url(normalize.css);
 /*
 Theme Name: tge
 Theme URI: http://thegianteye.com/
@@ -7,7 +8,6 @@ Description: The Giant Eye theme, design by Mark Dormand.
 Version: 1.0
 License: GNU General Public License
 */
-@import url(normalize.css);
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -113,7 +113,7 @@ textarea, input {
     display: block;
     width: 124px;
     height: 66px;
-    color: #fff;
+    color: white;
     font-size: 1px;
     background-repeat: no-repeat;
     background-image: url(images/tge-logo.png);
@@ -193,7 +193,7 @@ textarea, input {
       display: block;
       width: 43px;
       height: 43px;
-      color: #fff;
+      color: white;
       font-size: 1px;
       background-repeat: no-repeat;
       background-image: url(images/search.png);
@@ -303,7 +303,7 @@ textarea, input {
       display: block;
       width: 44px;
       height: 44px;
-      color: #fff;
+      color: white;
       font-size: 1px;
       background-repeat: no-repeat;
       text-decoration: none; }
@@ -404,13 +404,13 @@ footer {
       font-size: 1px;
       background-repeat: no-repeat;
       text-decoration: none; }
-    footer .footer-follow #follow-twitter a {
+    footer .footer-follow .follow-twitter a {
       background-image: url(images/follow-twitter.png); }
-    footer .footer-follow #follow-facebook a {
+    footer .footer-follow .follow-facebook a {
       background-image: url(images/follow-facebook.png); }
-    footer .footer-follow #follow-flickr a {
+    footer .footer-follow .follow-flickr a {
       background-image: url(images/follow-flickr.png); }
-    footer .footer-follow #follow-addthis a {
+    footer .footer-follow .follow-addthis a {
       background-image: url(images/follow-addthis.png); }
   footer .footer-copyright {
     background-image: none;
@@ -418,5 +418,3 @@ footer {
     color: #fff;
     font-size: 16px;
     font-size: 1.6rem; }
-
-/*# sourceMappingURL=style.css.map */
