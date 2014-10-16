@@ -4,3 +4,6 @@
 		$("#filter").slideToggle("slow");
 	});
 })(jQuery);
+
+// TypeKit
+try{Typekit.load();}catch(e){}
