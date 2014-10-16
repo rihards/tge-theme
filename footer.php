@@ -4,25 +4,29 @@
 		</h4>
 		<div class="footer-info">
 			<div class="footer-inner clearfix">
-				<div class="footer-column">
-					<h3>About</h3>
-					<p>The Giant Eye is a geeky blog of things, updated sporadically.</p>
-					<p><a href="#" class="footer-more">More</a></p>
-				</div>
-				<div class="footer-column">
-					<h3>Submit</h3>
-					<p>Show us stuff you love, things you think should get featured.</p>
-					<p><a href="#" class="footer-more">Send us goodies</a></p>
-				</div>
-				<div class="footer-column">
-					<h3>Join us</h3>
-					<p>Want to contribute more directly? Write, post, share the awesome.</p>
-					<p><a href="#" class="footer-more">Say hi</a></p>
-				</div>
-				<div class="footer-column">
-					<h3>Site credits</h3>
-					<p>Design by <a href="http://studiosquid.co.uk/">Squid</a><br> Development by <a href="http://rihards.com/">Rihards</a></p>
-				</div>
+				<?php
+				$footer_posts = get_pages(array(
+					'post_type' => 'footer_posts',
+					'sort_column' => 'menu_order',
+					'sort_order' => 'asc',
+				));
+				foreach($footer_posts as $footer_post) {
+					$content = $footer_post->post_content;
+					if(empty($content)) {
+						// Don't bother with empty page content
+						continue;
+					}
+					$content = apply_filters('the_content', $content);
+				?>
+
+					<div class="footer-column">
+						<h3><?php echo $footer_post->post_title; ?></h3>
+						<?php echo $content; ?>
+					</div>
+
+				<?php
+				} // Closing div for the footer post foreach loop
+				?>
 			</div>
 		</div>
 		<div class="footer-follow">

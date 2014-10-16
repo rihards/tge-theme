@@ -31,6 +31,28 @@ function tge_init() {
 			'social-menu' => __('Social Media Menu', 'tge-theme'),
 		)
 	);
+
+	// And our custom post types
+	register_post_type('footer_posts',
+		array(
+			'labels' => array(
+				'name' => __('Footer Posts'),
+				'singular_name' => __('Footer Post')
+			),
+			'public' => true,
+			'has_archive' => false,
+			'exclude_from_search' => true,
+			'show_in_menu' => true,
+			'menu_position' => 21,
+			'capability_type' => 'page',
+			'hierarchical' => true,
+			'supports' => array(
+				'title',
+				'editor',
+				'page-attributes',
+			),
+		)
+	);
 }
 add_action('init', 'tge_init');
 
