@@ -41,7 +41,9 @@
 			));
 			?>
 		</div>
-		<p class="footer-copyright">Copyright &copy; <?php echo date('Y'); ?> The Giant Eye. All article content &copy; of their respective owners.</p>
+		<p class="footer-copyright">
+			<?php printf(__('Copyright &copy; %s The Giant Eye. All article content &copy; of their respective owners.', 'tge-theme'), date('Y')); ?>
+		</p>
 	</footer>
 </div>
 <?php wp_footer(); ?>
