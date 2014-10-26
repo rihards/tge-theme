@@ -172,6 +172,11 @@ textarea, input {
     line-height: 3.2rem;
     max-width: 645px;
     max-width: 64.5rem; }
+    .entry-content p:first-child {
+      font-size: 26px;
+      font-size: 2.6rem;
+      line-height: 32px;
+      line-height: 3.2rem; }
   .entry-content blockquote {
     background-color: #F3F3F3;
     padding: 10px 40px; }
