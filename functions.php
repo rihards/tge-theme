@@ -64,5 +64,12 @@ function tge_setup() {
 	// Featured image, unlimited height, soft crop
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size(960, 9999);
+
+	// Some image sizes that we need
+	// 745 pixels wide (and unlimited height)
+	add_image_size('post_regular', 745);
+
+	// 455 pixels wide (and unlimited height)
+	add_image_size('post_floated', 455);	
 }
 add_action('after_setup_theme', 'tge_setup');
