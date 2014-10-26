@@ -180,6 +180,11 @@ textarea, input {
   .entry-content blockquote {
     background-color: #F3F3F3;
     padding: 10px 40px; }
+    .entry-content blockquote.smallquote {
+      width: 365px;
+      float: right; }
+      .entry-content blockquote.smallquote:after {
+        clear: right; }
     .entry-content blockquote p {
       font-size: 32px;
       font-size: 3.2rem;
@@ -197,6 +202,13 @@ textarea, input {
   .entry-content .wp-caption {
     margin-top: 40px;
     margin-left: -50px; }
+    .entry-content .wp-caption.alignleft {
+      width: 465px;
+      margin-left: -265px;
+      float: left;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 20px; }
     .entry-content .wp-caption .wp-caption-text {
       text-indent: 50px;
       font-style: italic;
