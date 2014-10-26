@@ -172,6 +172,15 @@ textarea, input {
     line-height: 3.2rem;
     max-width: 645px;
     max-width: 64.5rem; }
+  .entry-content blockquote {
+    background-color: #F3F3F3;
+    padding: 10px 40px; }
+    .entry-content blockquote p {
+      font-size: 32px;
+      font-size: 3.2rem;
+      line-height: 42px;
+      line-height: 4.2rem;
+      color: #55e8a9; }
   .entry-content .lead {
     font-size: 26px;
     font-size: 2.6rem;

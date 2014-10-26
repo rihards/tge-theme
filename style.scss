@@ -17,7 +17,6 @@ $supporting-color: #55e8a9;
 $link-color: #55e8a9;
 $inactive-color: #e2e2e2;
 
-
 // And some mixins
 @mixin reset-margin-padding {
 	margin: 0;
@@ -240,6 +239,19 @@ textarea, input { outline: none; }
 		line-height: 3.2rem;
 		max-width: 645px;
 		max-width: 64.5rem;
+	}
+
+	blockquote {
+		background-color: #F3F3F3;
+		padding: 10px 40px;
+
+		p {
+			font-size: 32px;
+			font-size: 3.2rem;
+			line-height: 42px;
+			line-height: 4.2rem;
+			color: $supporting-color;
+		}
 	}
 
 	.lead {
