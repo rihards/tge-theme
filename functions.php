@@ -36,8 +36,8 @@ function tge_init() {
 	register_post_type('footer_posts',
 		array(
 			'labels' => array(
-				'name' => __('Footer Posts'),
-				'singular_name' => __('Footer Post')
+				'name' => __('Footer Posts', 'tge-theme'),
+				'singular_name' => __('Footer Post', 'tge-theme')
 			),
 			'public' => true,
 			'has_archive' => false,
@@ -53,8 +53,24 @@ function tge_init() {
 			),
 		)
 	);
+
+	// Some image sizes that we need
+	// 745 pixels wide (and unlimited height)
+	add_image_size('post_regular', 745);
+
+	// 455 pixels wide (and unlimited height)
+	add_image_size('post_floated', 455);	
 }
 add_action('init', 'tge_init');
+
+// Image sizes should be selectable in the Media library as well
+function tge_custom_sizes($sizes) {
+    return array_merge($sizes, array(
+        'post_regular' => __('Post Regular (745px)', 'tge-theme'),
+        'post_floated' => __('Post Floated (455px)', 'tge-theme'),
+    ));
+}
+add_filter('image_size_names_choose', 'tge_custom_sizes');
 
 // Theme setup
 function tge_setup() {
@@ -64,12 +80,5 @@ function tge_setup() {
 	// Featured image, unlimited height, soft crop
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size(960, 9999);
-
-	// Some image sizes that we need
-	// 745 pixels wide (and unlimited height)
-	add_image_size('post_regular', 745);
-
-	// 455 pixels wide (and unlimited height)
-	add_image_size('post_floated', 455);	
 }
 add_action('after_setup_theme', 'tge_setup');
