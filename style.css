@@ -8,6 +8,12 @@ Version: 1.0
 License: GNU General Public License
 */
 @import url(normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 .clearfix:after {
   content: ".";
   visibility: hidden;

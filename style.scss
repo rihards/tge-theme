@@ -33,6 +33,16 @@ $inactive-color: #e2e2e2;
 	background-repeat: no-repeat;
 }
 
+// Things that make our life easier
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
