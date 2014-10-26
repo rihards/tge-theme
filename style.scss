@@ -243,6 +243,18 @@ textarea, input { outline: none; }
 		font-size: 24px;
 		font-size: 2.4rem;
 	}
+
+	.wp-caption {
+		margin-top: 10px;
+		margin-left: -50px;
+
+		.wp-caption-text {
+			text-indent: 50px;
+			font-style: italic;
+			font-size: 18px;
+			font-size: 1.8rem;
+		}
+	}
 }
 
 .navigate-search {
