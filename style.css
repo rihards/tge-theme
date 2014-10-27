@@ -58,10 +58,6 @@ textarea, input {
 :-ms-input-placeholder {
   color: #55e8a9; }
 
-.site {
-  max-width: 1300px;
-  margin: 0 auto; }
-
 .site article {
   max-width: 960px;
   margin: 0 auto; }
