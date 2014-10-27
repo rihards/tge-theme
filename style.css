@@ -60,7 +60,8 @@ textarea, input {
 
 .site article {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: auto; }
 
 .header {
   padding-bottom: 32px;
