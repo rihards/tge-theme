@@ -27,7 +27,7 @@
 			</div>
 		</div>
 	<?php else : ?>
-		<article id="post-0" class="post no-results not-found">
+		<article id="post-0" class="post no-results not-found clearfix">
 			<header class="entry-header">
 				<h1 class="entry-title"><?php _e('Nothing found', 'tge-theme'); ?></h1>
 			</header>
