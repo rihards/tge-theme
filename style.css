@@ -265,54 +265,20 @@ textarea, input {
 .btn-inactive a {
   background-color: #e2e2e2; }
 
-.comments-area {
+#disqus_thread {
   max-width: 960px;
   max-width: 96rem;
+  width: 960px;
+  width: 96rem;
   margin: 0 auto; }
-  .comments-area .comment-form, .comments-area .comments-title, .comments-area .comments-list {
-    margin-left: 265px;
-    margin-left: 26.5rem; }
-  .comments-area .comment-form {
-    margin-top: 50px;
-    margin-top: 5rem; }
-    .comments-area .comment-form p {
-      max-width: 500px;
-      max-width: 50rem; }
-    .comments-area .comment-form label {
-      margin-right: 10px;
-      margin-right: 1rem; }
-    .comments-area .comment-form input[type=text] {
-      border: none;
-      border-bottom: 5px solid #55e8a9;
-      color: #55e8a9;
-      font-size: 24px;
-      font-size: 2.4rem;
-      line-height: 28px;
-      line-height: 2.8rem;
-      width: 500px;
-      width: 50rem; }
-    .comments-area .comment-form textarea {
-      color: #55e8a9;
-      width: 500px;
-      width: 50rem;
-      border: none;
-      border-bottom: 5px solid #55e8a9; }
-    .comments-area .comment-form #submit {
-      border: 0;
-      font-size: 24px;
-      font-size: 2.4rem;
-      color: #55e8a9;
-      background-color: transparent; }
-    .comments-area .comment-form .form-submit {
-      text-align: right; }
-  .comments-area .comments-list p {
-    max-width: 645px;
-    max-width: 64.5rem; }
-  .comments-area .comments-list a {
-    color: #55e8a9; }
 
 .page h1.entry-title {
   margin-bottom: 0; }
+.page p a {
+  color: #55e8a9;
+  text-decoration: underline; }
+  .page p a:hover {
+    color: #e2e2e2; }
 
 .the-geeks {
   margin-top: 30px; }

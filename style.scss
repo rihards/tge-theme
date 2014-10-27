@@ -379,73 +379,12 @@ textarea, input { outline: none; }
 
 
 // Comments
-.comments-area {
+#disqus_thread {
 	max-width: 960px;
 	max-width: 96rem;
+	width: 960px;
+	width: 96rem;
 	margin: 0 auto;
-
-	.comment-form, .comments-title, .comments-list {
-		margin-left: 265px;
-		margin-left: 26.5rem;
-	}
-
-	.comment-form {
-		margin-top: 50px;
-		margin-top: 5rem;
-
-		p {
-			max-width: 500px;
-			max-width: 50rem;
-		}
-
-		label {
-			margin-right: 10px;
-			margin-right: 1rem;
-		}
-
-		input[type=text] {
-			border: none;
-			border-bottom: 5px solid $supporting-color;
-			color: $hilight-text-color;
-			font-size: 24px;
-			font-size: 2.4rem;
-			line-height: 28px;
-			line-height: 2.8rem;
-			width: 500px;
-			width: 50rem;
-		}
-
-		textarea {
-			color: $hilight-text-color;
-			width: 500px;
-			width: 50rem;
-			border: none;
-			border-bottom: 5px solid $supporting-color;
-		}
-
-		#submit {
-			border: 0;
-			font-size: 24px;
-			font-size: 2.4rem;
-			color: $hilight-text-color;
-			background-color: transparent;
-		}
-
-		.form-submit {
-			text-align: right;
-		}
-	}
-
-	.comments-list {
-		p {
-			max-width: 645px;
-			max-width: 64.5rem;
-		}
-
-		a {
-			color: $hilight-text-color;
-		}
-	}
 }
 
 
@@ -453,6 +392,16 @@ textarea, input { outline: none; }
 .page {
 	h1.entry-title {
 		margin-bottom: 0;
+	}
+
+	p {
+		a {
+			color: $link-color;
+			text-decoration: underline;
+			&:hover {
+				color: $inactive-color;
+			}
+		}
 	}
 }
 
