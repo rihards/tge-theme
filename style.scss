@@ -94,85 +94,84 @@ textarea, input { outline: none; }
 // General .site stuff
 
 .site {
-}
 
-.site article {
-	max-width: 960px;
-	margin: 0 auto;
-}
+	// Header & Navigation
+	.header {
 
-// Header & Navigation
-.header {
-	padding-bottom: 32px;
-	background: url(images/gradient-white.png) bottom repeat-x;
+		.navigation {
+			margin: 40px auto 50px auto;
+			display: table;
+			width: 860px;
 
-	.navigation {
-		margin: 40px auto 50px auto;
-		display: table;
-		width: 90%;
+			ul {
+				@include reset-margin-padding;
+				list-style: none none;
+				display: table-row;
+			}
 
-		ul {
-			@include reset-margin-padding;
-			list-style: none none;
-			display: table-row;
-		}
-
-		li {
-			display: table-cell;
-			vertical-align: middle;
-		}
-
-		a {
-			color: $main-text-color;
-			font-size: 20px;
-			font-size: 2rem;
-			text-decoration: none;
-			text-transform: uppercase;
-			letter-spacing: 3px;
-			letter-spacing: 0.3rem;
-		}
-	}
-
-	#filter {
-		display: none;
-		background-color: $main-text-color;
-		-moz-box-shadow: inset 0 0 10px #000000;
-		-webkit-box-shadow: inset 0 0 10px #000000;
-		box-shadow: inset 0 0 10px #000000;
-		padding: 20px;
-		li {
-			display: inline;
-			margin: 0 5px;
+			li {
+				display: table-cell;
+				vertical-align: middle;
+			}
 
 			a {
-				color: $supporting-color;
-				padding: 10px;
+				color: $main-text-color;
+				font-size: 20px;
+				font-size: 2rem;
 				text-decoration: none;
 				text-transform: uppercase;
-				&.tag-selected {
-					background-color: $supporting-color;
-					color: #fff;
-					border-radius: 20px;
+				letter-spacing: 3px;
+				letter-spacing: 0.3rem;
+			}
+		}
+
+		#filter {
+			display: none;
+			background-color: $main-text-color;
+			-moz-box-shadow: inset 0 0 10px #000000;
+			-webkit-box-shadow: inset 0 0 10px #000000;
+			box-shadow: inset 0 0 10px #000000;
+			padding: 20px;
+			li {
+				display: inline;
+				margin: 0 5px;
+
+				a {
+					color: $supporting-color;
+					padding: 10px;
+					text-decoration: none;
+					text-transform: uppercase;
+					&.tag-selected {
+						background-color: $supporting-color;
+						color: #fff;
+						border-radius: 20px;
+					}
 				}
 			}
 		}
+
+		#tge-about {
+			width: 110px;
+		}
+		#tge-forum {}
+		#tge-filter {
+			text-align: right;
+		}
+		#tge-night {
+			text-align: right;
+			width: 110px;
+		}
+
+		#tge-home a {
+			@include image-replace(#fff, 124px, 66px);
+			background-image: url(images/tge-logo.png);
+			margin: 0 auto;
+		}
 	}
 
-	#tge-about {
-		width: 110px;
-	}
-	#tge-forum {}
-	#tge-filter {
-		text-align: right;
-	}
-	#tge-night {
-		text-align: right;
-		width: 110px;
-	}
-
-	#tge-home a {
-		@include image-replace(#fff, 124px, 66px);
-		background-image: url(images/tge-logo.png);
+	// Let's set some widths
+	article, .header {
+		max-width: 960px;
 		margin: 0 auto;
 	}
 }
