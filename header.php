@@ -20,12 +20,13 @@
 				<li id="tge-night"><a href="#"><?php _e('Submit', 'tge-theme'); ?></a></li>
 			</ul>
 		</nav>
-		<nav id="filter"<?php if(!empty($_GET['tag'])) { echo ' style="display: block;"'; } ?>>
+		<?php $selected_tags = get_query_var('tag'); ?>
+		<nav id="filter"<?php if(!empty($selected_tags)) { echo ' style="display: block;"'; } ?>>
 			<?php
 			// Current tags
 			$current_tags = array();
-			if(!empty($_GET['tag'])) {
-				$current_tags = explode(' ', $_GET['tag']);
+			if(!empty($selected_tags)) {
+				$current_tags = explode('+', $selected_tags);
 			}
 
 			// List all the tags
@@ -39,7 +40,7 @@
 				$html .= '<li><a href="';
 
 				// If we already have tags, then we add
-				if(!empty($_GET['tag'])) {
+				if(!empty($current_tags)) {
 					// Are we adding or removing the tag?
 					if(!empty($active)) {
 						// Do we only have one tag selected?
@@ -50,12 +51,13 @@
 							$new_tags = $current_tags;
 							$active_key = array_search($tag->slug, $new_tags);
 							unset($new_tags[$active_key]);
-							$new_url = implode('+', $new_tags);
-							$html .= site_url() . '/?tag=' . $new_url;
+							$html .= site_url('tag/' . implode('+', $new_tags));
 						}
 					}
 					else {
-						$html .= $_SERVER['REQUEST_URI'] . '+' . $tag->slug;
+						$new_tags = $current_tags;
+						$new_tags[] = $tag->slug;
+						$html .= site_url('tag/' . implode('+', $new_tags));
 					}
 				}
 				else {
