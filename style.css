@@ -493,6 +493,8 @@ footer {
     float: none;
     width: 90%;
     margin: 10px auto; }
+  .site footer .footer-copyright {
+    max-width: 90%; }
   .site .the-geeks .geek-image {
     float: none;
     width: auto;
