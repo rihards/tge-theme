@@ -125,7 +125,38 @@
 				}
 			}
 			.footer-follow {
-				
+
+			}
+		}
+
+		.the-geeks {
+			.geek-image {
+				float: none;
+				width: auto;
+				text-align: center;
+				margin-right: 0;
+				img {
+					margin-bottom: 0;
+				}
+			}
+
+			.geek-info {
+				float: none;
+
+				h3 {
+					text-align: center;
+				}
+
+				ul {
+					text-align: center;
+					height: auto;
+					margin-top: -15px;
+					margin-bottom: 20px;
+					li {
+						float: none;
+						display: inline-block;
+					}
+				}
 			}
 		}
 

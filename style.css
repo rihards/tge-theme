@@ -492,6 +492,25 @@ footer {
   .site footer .footer-info .footer-inner .footer-column {
     float: none;
     width: 90%;
-    margin: 10px auto; } }
+    margin: 10px auto; }
+  .site .the-geeks .geek-image {
+    float: none;
+    width: auto;
+    text-align: center;
+    margin-right: 0; }
+    .site .the-geeks .geek-image img {
+      margin-bottom: 0; }
+  .site .the-geeks .geek-info {
+    float: none; }
+    .site .the-geeks .geek-info h3 {
+      text-align: center; }
+    .site .the-geeks .geek-info ul {
+      text-align: center;
+      height: auto;
+      margin-top: -15px;
+      margin-bottom: 20px; }
+      .site .the-geeks .geek-info ul li {
+        float: none;
+        display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
