@@ -205,8 +205,10 @@ textarea, input {
     .entry-content .wp-caption .wp-caption-text {
       text-indent: 50px;
       font-style: italic;
-      font-size: 18px;
-      font-size: 1.8rem; }
+      font-size: 16px;
+      font-size: 1.6rem;
+      line-height: 24px;
+      line-height: 2.4rem; }
 
 .navigate-search {
   margin: 40px auto;
