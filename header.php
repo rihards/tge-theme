@@ -73,3 +73,4 @@
 			?>
 		</nav>
 	</div>
+	<div class="post-divider"></div>
