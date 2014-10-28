@@ -84,16 +84,18 @@ textarea, input {
   -moz-box-shadow: inset 0 0 10px #000000;
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
-  padding: 20px; }
+  padding: 5px 20px; }
   .site .header #filter li {
-    display: inline;
+    display: inline-block;
     margin: 0 5px; }
     .site .header #filter li a {
       color: #55e8a9;
       padding: 10px;
       text-decoration: none;
       text-transform: uppercase;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      line-height: 32px;
+      line-height: 3.2rem; }
       .site .header #filter li a.tag-selected {
         background-color: #55e8a9;
         color: #fff;

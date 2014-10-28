@@ -77,9 +77,9 @@ textarea, input { outline: none; }
       -moz-box-shadow: inset 0 0 10px #000000;
       -webkit-box-shadow: inset 0 0 10px #000000;
       box-shadow: inset 0 0 10px #000000;
-      padding: 20px;
+      padding: 5px 20px;
       li {
-        display: inline;
+        display: inline-block;
         margin: 0 5px;
 
         a {
@@ -88,6 +88,8 @@ textarea, input { outline: none; }
           text-decoration: none;
           text-transform: uppercase;
           letter-spacing: 2px;
+          line-height: 32px;
+          line-height: 3.2rem;
           &.tag-selected {
             background-color: $supporting-color;
             color: #fff;
