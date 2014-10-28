@@ -60,6 +60,9 @@ function tge_init() {
 
 	// 455 pixels wide (and unlimited height)
 	add_image_size('post_floated', 455);	
+
+	// 420x420 and cropped image
+	add_image_size('geek_portrait', 420, 420, true);	
 }
 add_action('init', 'tge_init');
 

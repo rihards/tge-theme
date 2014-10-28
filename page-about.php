@@ -37,7 +37,7 @@
 		$content = apply_filters('the_content', $content);
 
 		// Geek images, yay, saxay!
-		$geek_image = get_the_post_thumbnail($geek->ID, 'full');
+		$geek_image = get_the_post_thumbnail($geek->ID, 'geek_portrait');
 
 		// Custom fields should have the social media links
 		$custom_fields = get_post_custom($geek->ID);
