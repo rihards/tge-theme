@@ -58,6 +58,8 @@ textarea, input {
 :-ms-input-placeholder {
   color: #55e8a9; }
 
+.site .header #tge-mobile-logo {
+  display: none; }
 .site .header .navigation {
   margin: 40px auto 50px auto;
   display: table;
@@ -429,6 +431,17 @@ footer {
 @media only screen and (max-width: 640px) {
   .site .header {
     padding: 20px 20px 0; }
+    .site .header #tge-mobile-logo {
+      display: block !important; }
+      .site .header #tge-mobile-logo a {
+        display: block;
+        width: 124px;
+        height: 66px;
+        color: #fff;
+        font-size: 1px;
+        background-repeat: no-repeat;
+        background-image: url(images/tge-logo.png);
+        margin: 10px auto 30px; }
     .site .header .navigation {
       width: 100%;
       display: block;
