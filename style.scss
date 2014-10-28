@@ -16,6 +16,7 @@ $hilight-text-color: #55e8a9;
 $supporting-color: #55e8a9;
 $link-color: #55e8a9;
 $inactive-color: #e2e2e2;
+$dark-grey: #2f2f2f;
 
 // And some mixins
 @mixin reset-margin-padding {
@@ -230,14 +231,16 @@ textarea, input { outline: none; }
 	width: 695px;
 	float: right;
 
-	p {
+	> p {
 		&:first-child {
 			font-size: 26px;
 			font-size: 2.6rem;
 			line-height: 32px;
 			line-height: 3.2rem;		
 		}
+	}
 
+	p {
 		font-size: 20px;
 		font-size: 2rem;
 		line-height: 32px;
@@ -247,7 +250,7 @@ textarea, input { outline: none; }
 	}
 
 	blockquote {
-		background-color: #F3F3F3;
+		background-color: $supporting-color;
 		padding: 10px 40px;
 
 		&.smallquote {
@@ -263,7 +266,8 @@ textarea, input { outline: none; }
 			font-size: 3.2rem;
 			line-height: 42px;
 			line-height: 4.2rem;
-			color: $supporting-color;
+			color: $dark-grey;
+			font-style: italic;
 		}
 	}
 
