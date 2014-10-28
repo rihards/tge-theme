@@ -16,8 +16,8 @@
 	<div class="header">
 		<nav class="navigation desktop-navigation">
 			<ul>
-				<li id="tge-about"><a href="<?php $url = site_url('/about/'); echo $url; ?>"><?php _e('About', 'tge-theme'); ?></a></li>
-				<li id="tge-forum"><a href="<?php $url = site_url('/forum/'); echo $url; ?>"><?php _e('Forum', 'tge-theme'); ?></a></li>
+				<li id="tge-about"><a href="<?php echo site_url('/about/'); ?>"><?php _e('About', 'tge-theme'); ?></a></li>
+				<li id="tge-forum"><a href="<?php echo site_url('/forum/'); ?>"><?php _e('Forum', 'tge-theme'); ?></a></li>
 				<li id="tge-home"><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></li>
 				<li id="tge-filter"><a href="#"><?php _e('Filter', 'tge-theme'); ?></a></li>
 				<li id="tge-night"><a href="#"><?php _e('Submit', 'tge-theme'); ?></a></li>
