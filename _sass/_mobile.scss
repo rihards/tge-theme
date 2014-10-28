@@ -6,6 +6,15 @@
 		.header {
 			padding: 20px 20px 0;
 
+			#tge-mobile-logo {
+				display: block !important;
+				a {
+					@include image-replace(#fff, 124px, 66px);
+					background-image: url(images/tge-logo.png);
+					margin: 10px auto 30px;
+				}
+			}
+
 			.navigation {
 				width: 100%;
 				display: block;

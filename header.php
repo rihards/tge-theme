@@ -14,6 +14,7 @@
 <body <?php body_class(); ?>>
 <div class="site">
 	<div class="header">
+		<div id="tge-mobile-logo" style="display: none;"><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
 		<nav class="navigation desktop-navigation">
 			<ul>
 				<li id="tge-about"><a href="<?php echo site_url('/about/'); ?>"><?php _e('About', 'tge-theme'); ?></a></li>
