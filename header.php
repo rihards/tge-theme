@@ -7,6 +7,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+<link rel="icon" sizes="196x196" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
