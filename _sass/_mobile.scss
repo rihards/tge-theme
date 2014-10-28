@@ -89,5 +89,45 @@
 
 		}
 
+		.navigate-search {
+			padding: 0px 20px 0;
+			margin-top: 10px;
+			width: auto;
+
+			.navigate-left, .navigate-right {
+				width: auto;
+				float: none;
+				margin: 10px 0;
+			}
+
+			.navigate-search-form {
+				float: none;
+				margin-left: 0;
+			}
+		}
+
+		#searchform {
+			width: 90%;
+			margin: 0 auto;
+			#s {
+				width: 80%;
+			}
+		}
+
+		footer {
+			.footer-info {
+				.footer-inner {
+					.footer-column {
+						float: none;
+						width: 90%;
+						margin: 10px auto;
+					}
+				}
+			}
+			.footer-follow {
+				
+			}
+		}
+
 	}
 }

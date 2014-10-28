@@ -470,6 +470,26 @@ footer {
           text-indent: 0; }
       .site article .entry-content blockquote.smallquote {
         width: auto;
-        float: none; } }
+        float: none; }
+  .site .navigate-search {
+    padding: 0px 20px 0;
+    margin-top: 10px;
+    width: auto; }
+    .site .navigate-search .navigate-left, .site .navigate-search .navigate-right {
+      width: auto;
+      float: none;
+      margin: 10px 0; }
+    .site .navigate-search .navigate-search-form {
+      float: none;
+      margin-left: 0; }
+  .site #searchform {
+    width: 90%;
+    margin: 0 auto; }
+    .site #searchform #s {
+      width: 80%; }
+  .site footer .footer-info .footer-inner .footer-column {
+    float: none;
+    width: 90%;
+    margin: 10px auto; } }
 
 /*# sourceMappingURL=style.css.map */
