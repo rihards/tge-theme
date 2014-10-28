@@ -184,8 +184,8 @@ textarea, input {
     .entry-content blockquote p {
       font-size: 32px;
       font-size: 3.2rem;
-      line-height: 42px;
-      line-height: 4.2rem;
+      line-height: 40px;
+      line-height: 4rem;
       color: #2f2f2f;
       font-style: italic; }
   .entry-content .lead {
