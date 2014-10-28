@@ -287,7 +287,10 @@ textarea, input {
     font-size: 26px;
     font-size: 2.6rem; }
   .the-geeks img {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px; }
   .the-geeks ul {
     margin: 0;
     padding: 0;
