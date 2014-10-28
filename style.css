@@ -92,7 +92,8 @@ textarea, input {
       color: #55e8a9;
       padding: 10px;
       text-decoration: none;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      letter-spacing: 2px; }
       .site .header #filter li a.tag-selected {
         background-color: #55e8a9;
         color: #fff;

@@ -141,6 +141,7 @@ textarea, input { outline: none; }
 					padding: 10px;
 					text-decoration: none;
 					text-transform: uppercase;
+					letter-spacing: 2px;
 					&.tag-selected {
 						background-color: $supporting-color;
 						color: #fff;
