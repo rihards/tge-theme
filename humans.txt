@@ -1,4 +1,17 @@
+/* TEAM */
+	Designer: Mark Dormand
+	Contact: mark [at] studiosquid.co.uk
+	Twitter: @studiosquid
+	From: Manchester, UK
+
+	Developer: Rihards Steinbergs
+	Contact: hello [at] rihards.com
+	Twitter: @rihards
+	From: Helsinki, Finland
+
+/* THANKS */
+
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery
-  Software: Sublime Text, Git
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text, iTerm, Photoshop, Git
