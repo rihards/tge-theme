@@ -465,10 +465,10 @@ footer {
     .site article .meta-info {
       margin-top: 0;
       float: none;
-      width: 100%; }
+      width: auto; }
       .site article .meta-info .entry-tags {
         margin-top: 10px;
-        width: 100%; }
+        width: auto; }
     .site article .entry-content {
       float: none;
       width: 100%; }
