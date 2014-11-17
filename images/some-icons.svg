@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1"
    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-   xml:space="preserve" width="54" height="54" viewBox="0 0 42 42">
+   xml:space="preserve" viewBox="0 0 34 34">
 <defs>
   <style><![CDATA[
-    .some { display: none; width: 42px; height: 42px; }
+    .some { display: none; }
     .some:target { display: inline; }
   ]]></style>
 </defs>
