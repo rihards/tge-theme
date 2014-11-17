@@ -117,7 +117,7 @@ textarea, input { outline: none; }
 
 		#tge-home a {
 			@include image-replace(#fff, 124px, 66px);
-			background-image: url(images/tge-logo.png);
+			background-image: url(images/tge-green.svg);
 			margin: 0 auto;
 		}
 	}
@@ -453,7 +453,7 @@ footer {
 		padding-top: 4rem;
 		a {
 			@include image-replace($supporting-color, 124px, 66px);
-			background-image: url(images/tge-logo-green.png);
+			background-image: url(images/tge-white.svg);
 			margin: 0 auto;
 		}
 	}
