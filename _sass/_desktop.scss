@@ -506,15 +506,12 @@ footer {
 		ul {
 			@include reset-margin-padding;
 			list-style: none none;
-			min-height: 42px;
 			margin: 0 auto 20px auto;
 			display: inline-block;
 		}
 		li {
 			text-align: left;
 			float: left;
-			width: 42px;
-			height: 42px;
 			margin: 0 6px;
 		}
 		a {
@@ -523,22 +520,17 @@ footer {
 		}
 		.follow-twitter {
 			a {
-				background-image: url(images/follow-twitter.png);
+				background-image: url(images/some-icons.svg#twitter);
 			}
 		}
 		.follow-facebook {
 			a {
-				background-image: url(images/follow-facebook.png);
+				background-image: url(images/some-icons.svg#facebook);
 			}
 		}
 		.follow-flickr {
 			a {
-				background-image: url(images/follow-flickr.png);
-			}
-		}
-		.follow-addthis {
-			a {
-				background-image: url(images/follow-addthis.png);
+				background-image: url(images/some-icons.svg#flickr);
 			}
 		}
 	}

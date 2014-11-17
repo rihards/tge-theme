@@ -574,19 +574,16 @@ footer .footer-follow ul {
   margin: 0;
   padding: 0;
   list-style: none none;
-  min-height: 42px;
   margin: 0 auto 20px auto;
   display: inline-block;
 }
-/* line 513, _sass/_desktop.scss */
+/* line 512, _sass/_desktop.scss */
 footer .footer-follow li {
   text-align: left;
   float: left;
-  width: 42px;
-  height: 42px;
   margin: 0 6px;
 }
-/* line 520, _sass/_desktop.scss */
+/* line 517, _sass/_desktop.scss */
 footer .footer-follow a {
   display: block;
   width: 42px;
@@ -596,23 +593,19 @@ footer .footer-follow a {
   background-repeat: no-repeat;
   text-decoration: none;
 }
-/* line 525, _sass/_desktop.scss */
+/* line 522, _sass/_desktop.scss */
 footer .footer-follow .follow-twitter a {
-  background-image: url(images/follow-twitter.png);
+  background-image: url(images/some-icons.svg#twitter);
 }
-/* line 530, _sass/_desktop.scss */
+/* line 527, _sass/_desktop.scss */
 footer .footer-follow .follow-facebook a {
-  background-image: url(images/follow-facebook.png);
+  background-image: url(images/some-icons.svg#facebook);
 }
-/* line 535, _sass/_desktop.scss */
+/* line 532, _sass/_desktop.scss */
 footer .footer-follow .follow-flickr a {
-  background-image: url(images/follow-flickr.png);
+  background-image: url(images/some-icons.svg#flickr);
 }
-/* line 540, _sass/_desktop.scss */
-footer .footer-follow .follow-addthis a {
-  background-image: url(images/follow-addthis.png);
-}
-/* line 546, _sass/_desktop.scss */
+/* line 538, _sass/_desktop.scss */
 footer .footer-copyright {
   background-image: none;
   padding-bottom: 40px;
