@@ -85,3 +85,13 @@ function tge_setup() {
 	set_post_thumbnail_size(960, 9999);
 }
 add_action('after_setup_theme', 'tge_setup');
+
+// Helper function for our SVG icons
+function tge_icon($icon) {
+	$svg = NULL;
+	$path = dirname(__FILE__) . '/images/icons/' . $icon . '.svg';
+	if(file_exists($path)) {
+		$svg = file_get_contents($path);
+	}
+	return $svg;
+}
