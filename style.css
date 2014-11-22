@@ -443,23 +443,18 @@ textarea, input {
   float: left;
   margin-right: 14px;
 }
-/* line 395, _sass/_desktop.scss */
-.the-geeks ul a {
-  display: block;
-  width: 44px;
-  height: 44px;
-  color: #fff;
-  font-size: 1px;
-  background-repeat: no-repeat;
+/* line 394, _sass/_desktop.scss */
+.the-geeks ul li a {
   text-decoration: none;
 }
-/* line 399, _sass/_desktop.scss */
-.the-geeks ul .link-twitter {
-  background-image: url(images/icon-twitter.png);
+/* line 397, _sass/_desktop.scss */
+.the-geeks ul li .icon-primary {
+  width: 44px;
+  height: 44px;
 }
-/* line 402, _sass/_desktop.scss */
-.the-geeks ul .link-instagram {
-  background-image: url(images/icon-instagram.png);
+/* line 400, _sass/_desktop.scss */
+.the-geeks ul li .icon-primary .some {
+  fill: #55e8a9;
 }
 /* line 407, _sass/_desktop.scss */
 .the-geeks .geek-image {
@@ -584,28 +579,15 @@ footer .footer-follow li {
   margin: 0 6px;
 }
 /* line 517, _sass/_desktop.scss */
-footer .footer-follow a {
-  display: block;
+footer .footer-follow li .icon-primary {
   width: 42px;
   height: 42px;
-  color: #55e8a9;
-  font-size: 1px;
-  background-repeat: no-repeat;
-  text-decoration: none;
 }
-/* line 522, _sass/_desktop.scss */
-footer .footer-follow .follow-twitter a {
-  background-image: url(images/some-icons.svg#twitter);
+/* line 520, _sass/_desktop.scss */
+footer .footer-follow li .icon-primary .some {
+  fill: #ffffff;
 }
 /* line 527, _sass/_desktop.scss */
-footer .footer-follow .follow-facebook a {
-  background-image: url(images/some-icons.svg#facebook);
-}
-/* line 532, _sass/_desktop.scss */
-footer .footer-follow .follow-flickr a {
-  background-image: url(images/some-icons.svg#flickr);
-}
-/* line 538, _sass/_desktop.scss */
 footer .footer-copyright {
   background-image: none;
   padding-bottom: 40px;
