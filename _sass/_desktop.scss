@@ -391,16 +391,16 @@ textarea, input { outline: none; }
 		li {
 			float: left;
 			margin-right: 14px;
-		}
-		a {
-			@include image-replace(#fff, 44px, 44px);
-			text-decoration: none;
-		}
-		.link-twitter {
-			background-image: url(images/icon-twitter.png);
-		}
-		.link-instagram {
-			background-image: url(images/icon-instagram.png);     
+			a {
+				text-decoration: none;
+			}
+			.icon-primary {
+				width: 44px;
+				height: 44px;
+				.some {
+					fill: $supporting-color;
+				}
+			}
 		}
 	}
 
@@ -513,24 +513,13 @@ footer {
 			text-align: left;
 			float: left;
 			margin: 0 6px;
-		}
-		a {
-			@include image-replace($supporting-color, 42px, 42px);
-			text-decoration: none;
-		}
-		.follow-twitter {
-			a {
-				background-image: url(images/some-icons.svg#twitter);
-			}
-		}
-		.follow-facebook {
-			a {
-				background-image: url(images/some-icons.svg#facebook);
-			}
-		}
-		.follow-flickr {
-			a {
-				background-image: url(images/some-icons.svg#flickr);
+
+			.icon-primary {
+				width: 42px;
+				height: 42px;
+				.some {
+					fill: #ffffff;
+				}
 			}
 		}
 	}
