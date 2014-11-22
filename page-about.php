@@ -36,11 +36,18 @@
 		$custom_fields = get_post_custom($geek->ID);
 		$social_media_links = '';
 		foreach($custom_fields as $field_name => $field_value) {
-			// we currently only support these two? whaaaat?!
-			if(in_array($field_name, array('twitter', 'instagram',))) {
+			if(in_array($field_name, array(
+					'facebook',
+					'flickr',
+					'gplus',
+					'instagram',
+					'linkedin',
+					'pinterest',
+					'twitter',
+				))) {
 				$follow = sprintf(__('Follow %s on %s', 'tge-theme'), $geek->post_title, ucfirst($field_name));
 				$social_media_links .= '<li><a class="link-' . $field_name . '" href="' . $field_value[0] . '" title="' . $follow . '">';
-				$social_media_links .= $follow . '</a></li>';
+				$social_media_links .= tge_icon($field_name) . '</a></li>';
 			}
 		}
 	?>

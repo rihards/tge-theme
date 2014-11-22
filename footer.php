@@ -33,15 +33,11 @@
 		</div>
 		<div class="footer-follow">
 			<h3><?php _e('Follow us', 'tge-theme'); ?></h3>
-			<?php
-			// The social media links are in a custom menu
-			wp_nav_menu(array(
-				'theme-location' => 'social-media',
-				'menu' => 'social-menu',
-				'container' => false,
-				'menu_class' => 'social-media-footer',
-			));
-			?>
+			<ul class="social-media-footer">
+				<li class="smf-twitter"><a href="https://twitter.com/TheGiantEye"><?php echo tge_icon('twitter'); ?></a></li>
+				<li class="smf-facebook"><a href="https://www.facebook.com/groups/55970517817/"><?php echo tge_icon('facebook'); ?></a></li>
+				<li class="smf-gplus"><a href="https://plus.google.com/117519463814497728744/"><?php echo tge_icon('gplus'); ?></a></li>
+			</ul>
 		</div>
 		<p class="footer-copyright">
 			<?php printf(__('Copyright &copy; %s The Giant Eye. All article content &copy; of their respective owners.', 'tge-theme'), date('Y')); ?>
