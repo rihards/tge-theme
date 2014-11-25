@@ -27,57 +27,57 @@
 		<nav id="nav-search">
 			<?php get_search_form(true); ?>
 		</nav>
-		<?php $selected_tags = get_query_var('tag'); ?>
-		<nav id="filter"<?php if(!empty($selected_tags)) { echo ' style="display: block;"'; } ?>>
-			<?php
-			// Current tags
-			$current_tags = array();
-			if(!empty($selected_tags)) {
-				$current_tags = explode('+', $selected_tags);
+	</div>
+	<?php $selected_tags = get_query_var('tag'); ?>
+	<nav id="filter"<?php if(!empty($selected_tags)) { echo ' style="display: block;"'; } ?>>
+		<?php
+		// Current tags
+		$current_tags = array();
+		if(!empty($selected_tags)) {
+			$current_tags = explode('+', $selected_tags);
+		}
+
+		// List all the tags
+		$tags = get_tags();
+		$html = '<ul>';
+		foreach($tags as $tag) {
+			$active = '';
+			if(in_array($tag->slug, $current_tags)) {
+				$active = ' tag-selected';
 			}
+			$html .= '<li><a href="';
 
-			// List all the tags
-			$tags = get_tags();
-			$html = '<ul>';
-			foreach($tags as $tag) {
-				$active = '';
-				if(in_array($tag->slug, $current_tags)) {
-					$active = ' tag-selected';
-				}
-				$html .= '<li><a href="';
-
-				// If we already have tags, then we add
-				if(!empty($current_tags)) {
-					// Are we adding or removing the tag?
-					if(!empty($active)) {
-						// Do we only have one tag selected?
-						if(count($current_tags) == 1) {
-							$html .= site_url();
-						}
-						else {
-							$new_tags = $current_tags;
-							$active_key = array_search($tag->slug, $new_tags);
-							unset($new_tags[$active_key]);
-							$html .= site_url('tag/' . implode('+', $new_tags));
-						}
+			// If we already have tags, then we add
+			if(!empty($current_tags)) {
+				// Are we adding or removing the tag?
+				if(!empty($active)) {
+					// Do we only have one tag selected?
+					if(count($current_tags) == 1) {
+						$html .= site_url();
 					}
 					else {
 						$new_tags = $current_tags;
-						$new_tags[] = $tag->slug;
+						$active_key = array_search($tag->slug, $new_tags);
+						unset($new_tags[$active_key]);
 						$html .= site_url('tag/' . implode('+', $new_tags));
 					}
 				}
 				else {
-					$tag_link = get_tag_link($tag->term_id);
-					$html .= $tag_link;
+					$new_tags = $current_tags;
+					$new_tags[] = $tag->slug;
+					$html .= site_url('tag/' . implode('+', $new_tags));
 				}
-
-				$html .= '" title="' . $tag->name . '" class="tag-' . $tag->slug . $active . '">';
-				$html .= $tag->name . '</a></li>';
 			}
-			$html .= '</ul>';
-			echo $html;
-			?>
-		</nav>
-	</div>
-	<div class="post-divider"></div>
+			else {
+				$tag_link = get_tag_link($tag->term_id);
+				$html .= $tag_link;
+			}
+
+			$html .= '" title="' . $tag->name . '" class="tag-' . $tag->slug . $active . '">';
+			$html .= $tag->name . '</a></li>';
+		}
+		$html .= '</ul>';
+		echo $html;
+		?>
+	</nav>
+	<div class="post-divider no-top-divider"></div>
