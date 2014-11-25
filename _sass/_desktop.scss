@@ -122,7 +122,7 @@ textarea, input { outline: none; }
 
 				a {
 					color: $supporting-color;
-					padding: 10px;
+					padding: 10px 25px;
 					text-decoration: none;
 					text-transform: uppercase;
 					letter-spacing: 2px;
@@ -131,7 +131,7 @@ textarea, input { outline: none; }
 					&.tag-selected {
 						background-color: $supporting-color;
 						color: #fff;
-						border-radius: 20px;
+						border-radius: 22px;
 					}
 				}
 			}

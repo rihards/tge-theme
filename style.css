@@ -175,7 +175,7 @@ textarea, input {
 /* line 123, _sass/_desktop.scss */
 .site #filter ul li a {
   color: #55e8a9;
-  padding: 10px;
+  padding: 10px 25px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -186,7 +186,7 @@ textarea, input {
 .site #filter ul li a.tag-selected {
   background-color: #55e8a9;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 22px;
 }
 /* line 142, _sass/_desktop.scss */
 .site article, .site .header {
