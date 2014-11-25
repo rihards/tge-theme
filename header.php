@@ -24,6 +24,9 @@
 				<li id="nav-forth"><a href="/submit"><?php _e('Submit', 'tge-theme'); ?></a></li>
 			</ul>
 		</nav>
+		<nav id="nav-search">
+			<?php get_search_form(true); ?>
+		</nav>
 		<?php $selected_tags = get_query_var('tag'); ?>
 		<nav id="filter"<?php if(!empty($selected_tags)) { echo ' style="display: block;"'; } ?>>
 			<?php

@@ -149,19 +149,29 @@ textarea, input {
   border-radius: 20px;
 }
 /* line 106, _sass/_desktop.scss */
+.site .header #nav-search {
+  display: none;
+  width: 43rem;
+  margin: 0 auto;
+}
+/* line 110, _sass/_desktop.scss */
+.site .header #nav-search form {
+  margin: 0 auto;
+}
+/* line 115, _sass/_desktop.scss */
 .site .header #nav-first {
   width: 110px;
 }
-/* line 110, _sass/_desktop.scss */
+/* line 119, _sass/_desktop.scss */
 .site .header #nav-third {
   text-align: right;
 }
-/* line 113, _sass/_desktop.scss */
+/* line 122, _sass/_desktop.scss */
 .site .header #nav-forth {
   text-align: right;
   width: 110px;
 }
-/* line 118, _sass/_desktop.scss */
+/* line 127, _sass/_desktop.scss */
 .site .header #tge-home a {
   display: block;
   width: 124px;
@@ -172,13 +182,13 @@ textarea, input {
   background-image: url(images/tge-green.svg);
   margin: 0 auto;
 }
-/* line 126, _sass/_desktop.scss */
+/* line 135, _sass/_desktop.scss */
 .site article, .site .header {
   max-width: 960px;
   margin: 0 auto;
 }
 
-/* line 134, _sass/_desktop.scss */
+/* line 143, _sass/_desktop.scss */
 .post-divider {
   margin-top: 30px;
   margin-top: 3rem;
@@ -186,27 +196,27 @@ textarea, input {
   background: url(images/gradient-white.png) top repeat-x;
 }
 
-/* line 141, _sass/_desktop.scss */
+/* line 150, _sass/_desktop.scss */
 .entry-title {
   margin-left: 50px;
 }
 
-/* line 145, _sass/_desktop.scss */
+/* line 154, _sass/_desktop.scss */
 .post-thumbnail {
   margin-bottom: 10px;
 }
 
-/* line 151, _sass/_desktop.scss */
+/* line 160, _sass/_desktop.scss */
 .entry-entry a {
   color: #55e8a9;
   text-decoration: underline;
 }
-/* line 154, _sass/_desktop.scss */
+/* line 163, _sass/_desktop.scss */
 .entry-entry a:hover {
   color: #e2e2e2;
 }
 
-/* line 160, _sass/_desktop.scss */
+/* line 169, _sass/_desktop.scss */
 .meta-info {
   margin-top: 30px;
   margin-left: 50px;
@@ -218,12 +228,12 @@ textarea, input {
   font-size: 1.6rem;
 }
 
-/* line 171, _sass/_desktop.scss */
+/* line 180, _sass/_desktop.scss */
 .author-and-date p {
   margin: 0;
 }
 
-/* line 175, _sass/_desktop.scss */
+/* line 184, _sass/_desktop.scss */
 .entry-tags {
   margin-top: 50px;
   width: 165px;
@@ -231,19 +241,19 @@ textarea, input {
   color: #55e8a9;
 }
 
-/* line 182, _sass/_desktop.scss */
+/* line 191, _sass/_desktop.scss */
 .entry-content {
   width: 695px;
   float: right;
 }
-/* line 187, _sass/_desktop.scss */
+/* line 196, _sass/_desktop.scss */
 .entry-content > p:first-child {
   font-size: 26px;
   font-size: 2.6rem;
   line-height: 32px;
   line-height: 3.2rem;
 }
-/* line 195, _sass/_desktop.scss */
+/* line 204, _sass/_desktop.scss */
 .entry-content p {
   font-size: 20px;
   font-size: 2rem;
@@ -252,21 +262,21 @@ textarea, input {
   max-width: 645px;
   max-width: 64.5rem;
 }
-/* line 204, _sass/_desktop.scss */
+/* line 213, _sass/_desktop.scss */
 .entry-content blockquote {
   background-color: #55e8a9;
   padding: 10px 40px;
 }
-/* line 208, _sass/_desktop.scss */
+/* line 217, _sass/_desktop.scss */
 .entry-content blockquote.smallquote {
   width: 365px;
   float: right;
 }
-/* line 211, _sass/_desktop.scss */
+/* line 220, _sass/_desktop.scss */
 .entry-content blockquote.smallquote:after {
   clear: right;
 }
-/* line 216, _sass/_desktop.scss */
+/* line 225, _sass/_desktop.scss */
 .entry-content blockquote p {
   font-size: 32px;
   font-size: 3.2rem;
@@ -275,24 +285,24 @@ textarea, input {
   color: #2f2f2f;
   font-style: italic;
 }
-/* line 226, _sass/_desktop.scss */
+/* line 235, _sass/_desktop.scss */
 .entry-content .lead {
   font-size: 26px;
   font-size: 2.6rem;
   line-height: 32px;
   line-height: 3.2rem;
 }
-/* line 233, _sass/_desktop.scss */
+/* line 242, _sass/_desktop.scss */
 .entry-content .more-link {
   font-size: 24px;
   font-size: 2.4rem;
 }
-/* line 238, _sass/_desktop.scss */
+/* line 247, _sass/_desktop.scss */
 .entry-content .wp-caption {
   margin-top: 40px;
   margin-left: -50px;
 }
-/* line 242, _sass/_desktop.scss */
+/* line 251, _sass/_desktop.scss */
 .entry-content .wp-caption.alignleft {
   width: 465px;
   margin-left: -265px;
@@ -301,7 +311,7 @@ textarea, input {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 251, _sass/_desktop.scss */
+/* line 260, _sass/_desktop.scss */
 .entry-content .wp-caption .wp-caption-text {
   text-indent: 50px;
   font-style: italic;
@@ -311,17 +321,17 @@ textarea, input {
   line-height: 2.4rem;
 }
 
-/* line 262, _sass/_desktop.scss */
+/* line 271, _sass/_desktop.scss */
 .navigate-search {
   margin: 40px auto;
   width: 960px;
 }
-/* line 266, _sass/_desktop.scss */
+/* line 275, _sass/_desktop.scss */
 .navigate-search .navigate-left, .navigate-search .navigate-right {
   width: 215px;
   float: left;
 }
-/* line 275, _sass/_desktop.scss */
+/* line 284, _sass/_desktop.scss */
 .navigate-search .navigate-search-form {
   float: left;
   max-width: 430px;
@@ -329,14 +339,14 @@ textarea, input {
   margin-left: 50px;
   margin-left: 5rem;
 }
-/* line 283, _sass/_desktop.scss */
+/* line 292, _sass/_desktop.scss */
 .navigate-search .navigate-right {
   margin-left: 50px;
   margin-left: 5rem;
   text-align: right;
 }
 
-/* line 292, _sass/_desktop.scss */
+/* line 301, _sass/_desktop.scss */
 .btn-active a, .btn-inactive a {
   font-size: 26px;
   font-size: 2.6rem;
@@ -346,17 +356,17 @@ textarea, input {
   text-decoration: none;
 }
 
-/* line 303, _sass/_desktop.scss */
+/* line 312, _sass/_desktop.scss */
 .btn-active a {
   background-color: #55e8a9;
 }
 
-/* line 309, _sass/_desktop.scss */
+/* line 318, _sass/_desktop.scss */
 .btn-inactive a {
   background-color: #e2e2e2;
 }
 
-/* line 316, _sass/_desktop.scss */
+/* line 325, _sass/_desktop.scss */
 #searchform label {
   display: block;
   width: 43px;
@@ -369,7 +379,7 @@ textarea, input {
   margin-right: 7px;
   margin-right: 0.7rem;
 }
-/* line 323, _sass/_desktop.scss */
+/* line 332, _sass/_desktop.scss */
 #searchform #s {
   border: none;
   border-bottom: 5px solid #55e8a9;
@@ -381,12 +391,12 @@ textarea, input {
   width: 378px;
   width: 37.8rem;
 }
-/* line 334, _sass/_desktop.scss */
+/* line 343, _sass/_desktop.scss */
 #searchform #searchsubmit {
   display: none;
 }
 
-/* line 340, _sass/_desktop.scss */
+/* line 349, _sass/_desktop.scss */
 #disqus_thread {
   max-width: 960px;
   max-width: 96rem;
@@ -395,68 +405,68 @@ textarea, input {
   margin: 0 auto;
 }
 
-/* line 351, _sass/_desktop.scss */
+/* line 360, _sass/_desktop.scss */
 .page h1.entry-title {
   margin-bottom: 0;
 }
-/* line 356, _sass/_desktop.scss */
+/* line 365, _sass/_desktop.scss */
 .page p a {
   color: #55e8a9;
   text-decoration: underline;
 }
-/* line 359, _sass/_desktop.scss */
+/* line 368, _sass/_desktop.scss */
 .page p a:hover {
   color: #e2e2e2;
 }
 
-/* line 367, _sass/_desktop.scss */
+/* line 376, _sass/_desktop.scss */
 .the-geeks {
   margin-top: 30px;
 }
-/* line 369, _sass/_desktop.scss */
+/* line 378, _sass/_desktop.scss */
 .the-geeks h2 {
   font-size: 32px;
   font-size: 3.2rem;
 }
-/* line 374, _sass/_desktop.scss */
+/* line 383, _sass/_desktop.scss */
 .the-geeks h3 {
   color: #333333;
   font-size: 26px;
   font-size: 2.6rem;
 }
-/* line 380, _sass/_desktop.scss */
+/* line 389, _sass/_desktop.scss */
 .the-geeks img {
   margin-bottom: 30px;
   border-radius: 50%;
   width: 210px;
   height: 210px;
 }
-/* line 387, _sass/_desktop.scss */
+/* line 396, _sass/_desktop.scss */
 .the-geeks ul {
   margin: 0;
   padding: 0;
   list-style: none none;
   height: 74px;
 }
-/* line 391, _sass/_desktop.scss */
+/* line 400, _sass/_desktop.scss */
 .the-geeks ul li {
   float: left;
   margin-right: 14px;
 }
-/* line 394, _sass/_desktop.scss */
+/* line 403, _sass/_desktop.scss */
 .the-geeks ul li a {
   text-decoration: none;
 }
-/* line 397, _sass/_desktop.scss */
+/* line 406, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary {
   width: 44px;
   height: 44px;
 }
-/* line 400, _sass/_desktop.scss */
+/* line 409, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary .some {
   fill: #55e8a9;
 }
-/* line 407, _sass/_desktop.scss */
+/* line 416, _sass/_desktop.scss */
 .the-geeks .geek-image {
   width: 240px;
   width: 24rem;
@@ -464,24 +474,24 @@ textarea, input {
   margin-right: 2.5rem;
   float: left;
 }
-/* line 415, _sass/_desktop.scss */
+/* line 424, _sass/_desktop.scss */
 .the-geeks .geek-info {
   float: left;
   max-width: 645px;
   max-width: 64.5rem;
 }
 
-/* line 423, _sass/_desktop.scss */
+/* line 432, _sass/_desktop.scss */
 footer {
   color: #fff;
   background-color: #55e8a9;
 }
-/* line 427, _sass/_desktop.scss */
+/* line 436, _sass/_desktop.scss */
 footer #footer-logo, footer .footer-info, footer .footer-follow, footer .footer-copyright {
   background: #55e8a9 url(images/gradient-green.png) bottom repeat-x;
   padding-bottom: 60px;
 }
-/* line 432, _sass/_desktop.scss */
+/* line 441, _sass/_desktop.scss */
 footer h3 {
   color: #fff;
   text-align: center;
@@ -490,7 +500,7 @@ footer h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-/* line 441, _sass/_desktop.scss */
+/* line 450, _sass/_desktop.scss */
 footer p {
   color: #333333;
   text-align: center;
@@ -500,12 +510,12 @@ footer p {
   line-height: 24px;
   line-height: 2.4rem;
 }
-/* line 451, _sass/_desktop.scss */
+/* line 460, _sass/_desktop.scss */
 footer #footer-logo {
   padding-top: 40px;
   padding-top: 4rem;
 }
-/* line 454, _sass/_desktop.scss */
+/* line 463, _sass/_desktop.scss */
 footer #footer-logo a {
   display: block;
   width: 124px;
@@ -516,17 +526,17 @@ footer #footer-logo a {
   background-image: url(images/tge-white.svg);
   margin: 0 auto;
 }
-/* line 461, _sass/_desktop.scss */
+/* line 470, _sass/_desktop.scss */
 footer .footer-info {
   padding-bottom: 34px;
 }
-/* line 464, _sass/_desktop.scss */
+/* line 473, _sass/_desktop.scss */
 footer .footer-info .footer-inner {
   max-width: 960px;
   max-width: 96rem;
   margin: 0 auto;
 }
-/* line 470, _sass/_desktop.scss */
+/* line 479, _sass/_desktop.scss */
 footer .footer-info .footer-column {
   width: 215px;
   width: 21.5rem;
@@ -534,37 +544,37 @@ footer .footer-info .footer-column {
   margin-right: 25px;
   margin-right: 2.5rem;
 }
-/* line 477, _sass/_desktop.scss */
+/* line 486, _sass/_desktop.scss */
 footer .footer-info .footer-column:last-child {
   margin-right: 0;
 }
-/* line 482, _sass/_desktop.scss */
+/* line 491, _sass/_desktop.scss */
 footer .footer-info p {
   max-width: 190px;
   max-width: 19rem;
 }
-/* line 487, _sass/_desktop.scss */
+/* line 496, _sass/_desktop.scss */
 footer .footer-info a {
   color: #333333;
 }
-/* line 490, _sass/_desktop.scss */
+/* line 499, _sass/_desktop.scss */
 footer .footer-info a:hover {
   color: #fff;
 }
-/* line 494, _sass/_desktop.scss */
+/* line 503, _sass/_desktop.scss */
 footer .footer-info a.footer-more {
   color: #fff;
 }
-/* line 496, _sass/_desktop.scss */
+/* line 505, _sass/_desktop.scss */
 footer .footer-info a.footer-more:hover {
   color: #333333;
 }
-/* line 503, _sass/_desktop.scss */
+/* line 512, _sass/_desktop.scss */
 footer .footer-follow {
   text-align: center;
   padding-bottom: 34px;
 }
-/* line 506, _sass/_desktop.scss */
+/* line 515, _sass/_desktop.scss */
 footer .footer-follow ul {
   margin: 0;
   padding: 0;
@@ -572,22 +582,22 @@ footer .footer-follow ul {
   margin: 0 auto 20px auto;
   display: inline-block;
 }
-/* line 512, _sass/_desktop.scss */
+/* line 521, _sass/_desktop.scss */
 footer .footer-follow li {
   text-align: left;
   float: left;
   margin: 0 6px;
 }
-/* line 517, _sass/_desktop.scss */
+/* line 526, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary {
   width: 42px;
   height: 42px;
 }
-/* line 520, _sass/_desktop.scss */
+/* line 529, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary .some {
   fill: #ffffff;
 }
-/* line 527, _sass/_desktop.scss */
+/* line 536, _sass/_desktop.scss */
 footer .footer-copyright {
   background-image: none;
   padding-bottom: 40px;

@@ -103,6 +103,15 @@ textarea, input { outline: none; }
 			}
 		}
 
+		#nav-search {
+			display: none;
+			width: 43rem;
+			margin: 0 auto;
+			form {
+				margin: 0 auto;
+			}
+		}
+
 		#nav-first {
 			width: 110px;
 		}
