@@ -1,6 +1,6 @@
 // Filter navigation
 (function($) {
-	$("#nav-third a").click(function () {
+	$("#nav-second a").click(function () {
 		$("#filter").slideToggle("slow");
 	});
 })(jQuery);

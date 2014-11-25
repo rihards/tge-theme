@@ -18,10 +18,10 @@
 		<nav class="navigation">
 			<ul>
 				<li id="nav-first"><a href="<?php echo site_url('/about/'); ?>"><?php _e('About', 'tge-theme'); ?></a></li>
-				<li id="nav-second"><a href="<?php echo site_url('/forum/'); ?>"><?php _e('Forum', 'tge-theme'); ?></a></li>
+				<li id="nav-second"><a href="#"><?php _e('Filter', 'tge-theme'); ?></a></li>
 				<li id="tge-home"><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></li>
-				<li id="nav-third"><a href="#"><?php _e('Filter', 'tge-theme'); ?></a></li>
-				<li id="nav-forth"><a href="#"><?php _e('Submit', 'tge-theme'); ?></a></li>
+				<li id="nav-third"><a href="#"><?php _e('Search', 'tge-theme'); ?></a></li>
+				<li id="nav-forth"><a href="/submit"><?php _e('Submit', 'tge-theme'); ?></a></li>
 			</ul>
 		</nav>
 		<?php $selected_tags = get_query_var('tag'); ?>
