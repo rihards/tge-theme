@@ -315,7 +315,7 @@ textarea, input { outline: none; }
 #searchform {
 	label {
 		@include image-replace(#fff, 43px, 43px);
-		background-image: url(images/search.png);
+		background-image: url(images/search.svg);
 		float: left;
 		margin-right: 7px;
 		margin-right: 0.7rem;
