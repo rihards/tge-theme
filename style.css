@@ -179,8 +179,8 @@ textarea, input {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  line-height: 32px;
-  line-height: 3.2rem;
+  line-height: 62px;
+  line-height: 6.2rem;
 }
 /* line 131, _sass/_desktop.scss */
 .site #filter ul li a.tag-selected {
