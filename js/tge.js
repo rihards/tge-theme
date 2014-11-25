@@ -1,6 +1,6 @@
 // Filter navigation
 (function($) {
-	$("#tge-filter a").click(function () {
+	$("#nav-third a").click(function () {
 		$("#filter").slideToggle("slow");
 	});
 })(jQuery);

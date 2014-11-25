@@ -149,15 +149,15 @@ textarea, input {
   border-radius: 20px;
 }
 /* line 106, _sass/_desktop.scss */
-.site .header #tge-about {
+.site .header #nav-first {
   width: 110px;
 }
 /* line 110, _sass/_desktop.scss */
-.site .header #tge-filter {
+.site .header #nav-third {
   text-align: right;
 }
 /* line 113, _sass/_desktop.scss */
-.site .header #tge-night {
+.site .header #nav-forth {
   text-align: right;
   width: 110px;
 }
