@@ -34,13 +34,17 @@
 					display: none;
 				}
 
-				#tge-filter, #tge-night, #tge-about, #tge-forum {
+				#nav-first, #nav-second, #nav-third, #nav-forth {
 					text-align: center;
 					width: auto;
 				}
 
 			}
 
+			#nav-search {
+				margin-top: 30px;
+				width: 90%;
+			}
 		}
 
 		article {

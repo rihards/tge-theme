@@ -648,122 +648,127 @@ footer .footer-copyright {
     display: none;
   }
   /* line 37, _sass/_mobile.scss */
-  .site .header .navigation #tge-filter, .site .header .navigation #tge-night, .site .header .navigation #tge-about, .site .header .navigation #tge-forum {
+  .site .header .navigation #nav-first, .site .header .navigation #nav-second, .site .header .navigation #nav-third, .site .header .navigation #nav-forth {
     text-align: center;
     width: auto;
   }
-  /* line 46, _sass/_mobile.scss */
+  /* line 44, _sass/_mobile.scss */
+  .site .header #nav-search {
+    margin-top: 30px;
+    width: 90%;
+  }
+  /* line 50, _sass/_mobile.scss */
   .site article {
     padding: 0 20px;
   }
-  /* line 50, _sass/_mobile.scss */
+  /* line 54, _sass/_mobile.scss */
   .site article .post-thumbnail img {
     max-width: 100%;
     height: auto;
   }
-  /* line 56, _sass/_mobile.scss */
+  /* line 60, _sass/_mobile.scss */
   .site article .meta-info {
     margin-top: 0;
     float: none;
     width: auto;
   }
-  /* line 61, _sass/_mobile.scss */
+  /* line 65, _sass/_mobile.scss */
   .site article .meta-info .entry-tags {
     margin-top: 10px;
     width: auto;
   }
-  /* line 67, _sass/_mobile.scss */
+  /* line 71, _sass/_mobile.scss */
   .site article .entry-content {
     float: none;
     width: 100%;
   }
-  /* line 71, _sass/_mobile.scss */
+  /* line 75, _sass/_mobile.scss */
   .site article .entry-content .wp-caption {
     width: 100% !important;
     margin-left: 0;
   }
-  /* line 75, _sass/_mobile.scss */
+  /* line 79, _sass/_mobile.scss */
   .site article .entry-content .wp-caption.alignleft {
     float: none;
     margin: 30px 0 0 0;
   }
-  /* line 80, _sass/_mobile.scss */
+  /* line 84, _sass/_mobile.scss */
   .site article .entry-content .wp-caption img {
     max-width: 100%;
     height: auto;
   }
-  /* line 85, _sass/_mobile.scss */
+  /* line 89, _sass/_mobile.scss */
   .site article .entry-content .wp-caption .wp-caption-text {
     text-indent: 0;
   }
-  /* line 91, _sass/_mobile.scss */
+  /* line 95, _sass/_mobile.scss */
   .site article .entry-content blockquote.smallquote {
     width: auto;
     float: none;
   }
-  /* line 101, _sass/_mobile.scss */
+  /* line 105, _sass/_mobile.scss */
   .site .navigate-search {
     padding: 0px 20px 0;
     margin-top: 10px;
     width: auto;
   }
-  /* line 106, _sass/_mobile.scss */
+  /* line 110, _sass/_mobile.scss */
   .site .navigate-search .navigate-left, .site .navigate-search .navigate-right {
     width: auto;
     float: none;
     margin: 10px 0;
   }
-  /* line 112, _sass/_mobile.scss */
+  /* line 116, _sass/_mobile.scss */
   .site .navigate-search .navigate-search-form {
     float: none;
     margin-left: 0;
   }
-  /* line 118, _sass/_mobile.scss */
+  /* line 122, _sass/_mobile.scss */
   .site #searchform {
     width: 90%;
     margin: 0 auto;
   }
-  /* line 121, _sass/_mobile.scss */
+  /* line 125, _sass/_mobile.scss */
   .site #searchform #s {
     width: 80%;
   }
-  /* line 129, _sass/_mobile.scss */
+  /* line 133, _sass/_mobile.scss */
   .site footer .footer-info .footer-inner .footer-column {
     float: none;
     width: 90%;
     margin: 10px auto;
   }
-  /* line 139, _sass/_mobile.scss */
+  /* line 143, _sass/_mobile.scss */
   .site footer .footer-copyright {
     max-width: 90%;
   }
-  /* line 145, _sass/_mobile.scss */
+  /* line 149, _sass/_mobile.scss */
   .site .the-geeks .geek-image {
     float: none;
     width: auto;
     text-align: center;
     margin-right: 0;
   }
-  /* line 150, _sass/_mobile.scss */
+  /* line 154, _sass/_mobile.scss */
   .site .the-geeks .geek-image img {
     margin-bottom: 0;
   }
-  /* line 155, _sass/_mobile.scss */
+  /* line 159, _sass/_mobile.scss */
   .site .the-geeks .geek-info {
     float: none;
   }
-  /* line 158, _sass/_mobile.scss */
+  /* line 162, _sass/_mobile.scss */
   .site .the-geeks .geek-info h3 {
     text-align: center;
   }
-  /* line 162, _sass/_mobile.scss */
+  /* line 166, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul {
     text-align: center;
     height: auto;
     margin-top: -15px;
     margin-bottom: 20px;
   }
-  /* line 167, _sass/_mobile.scss */
+  /* line 171, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul li {
     float: none;
     display: inline-block;
