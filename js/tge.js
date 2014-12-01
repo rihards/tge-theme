@@ -10,6 +10,9 @@
     $("#nav-search").slideToggle("slow");
   });
 
+  $("#tge-mobile-menu a").click(function () {
+    $(".header .navigation").slideToggle("slow");
+  });
 })(jQuery);
 
 // TypeKit

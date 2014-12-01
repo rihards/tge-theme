@@ -3,11 +3,15 @@
 @media only screen and (max-width: 640px) {
 	.site {
 
-		.header {
+		.tge-mobile {
+			display: block !important;
 			padding: 20px 20px 0;
 
 			#tge-mobile-logo {
-				display: block !important;
+				width: 124px;
+				position: absolute;
+				left: 50%;
+				margin-left: -62px;
 				a {
 					@include image-replace(#fff, 124px, 66px);
 					background-image: url(images/tge-green.svg);
@@ -15,18 +19,40 @@
 				}
 			}
 
+			#tge-mobile-menu {
+				width: 36px;
+				float: right;
+				margin-top: 30px;
+
+				svg {
+					height: 36px;
+					width: auto;
+					.icon-path {
+						fill: $inactive-color;
+					}
+				}
+			}
+		}
+
+		.header {
+			padding: 20px 0 0;
+
 			.navigation {
 				width: 100%;
-				display: block;
+				display: none;
 				margin: 0;
+				background: $supporting-color url(images/gradient-green.png) repeat-x;
 
 				ul {
 					display: block;
 
 					li {
+						padding: 10px 0;
 						width: 100%;
 						display: block;
-						margin-bottom: 10px;
+						a {
+							color: #fff;
+						}
 					}
 				}
 
@@ -37,6 +63,14 @@
 				#nav-first, #nav-second, #nav-third, #nav-forth {
 					text-align: center;
 					width: auto;
+				}
+
+				#nav-first {
+					padding-top: 20px;
+				}
+
+				#nav-forth {
+					padding-bottom: 20px;
 				}
 
 			}

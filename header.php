@@ -13,8 +13,11 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="site">
+	<div class="tge-mobile clearfix" style="display: none;">
+		<div id="tge-mobile-logo"><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
+		<div id="tge-mobile-menu"><a href="#"><?php echo tge_icon('mobile-menu'); ?></a></div>		
+	</div>
 	<div class="header">
-		<div id="tge-mobile-logo" style="display: none;"><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
 		<nav class="navigation">
 			<ul>
 				<li id="nav-first"><a href="<?php echo site_url('/about/'); ?>"><?php _e('About', 'tge-theme'); ?></a></li>
