@@ -826,4 +826,10 @@ footer .footer-copyright {
     float: none;
     display: inline-block;
   }
+  /* line 223, _sass/_mobile.scss */
+  .site #disqus_thread {
+    max-width: 94%;
+    width: 94%;
+    margin: 0 auto;
+  }
 }
