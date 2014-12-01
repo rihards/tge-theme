@@ -706,118 +706,122 @@ footer .footer-copyright {
     margin-top: 30px;
     width: 90%;
   }
-  /* line 84, _sass/_mobile.scss */
-  .site article {
-    padding: 0 20px;
+  /* line 86, _sass/_mobile.scss */
+  .site article .entry-title {
+    margin-left: 20px;
   }
-  /* line 88, _sass/_mobile.scss */
+  /* line 91, _sass/_mobile.scss */
   .site article .post-thumbnail img {
     max-width: 100%;
     height: auto;
   }
-  /* line 94, _sass/_mobile.scss */
+  /* line 97, _sass/_mobile.scss */
   .site article .meta-info {
     margin-top: 0;
     float: none;
     width: auto;
   }
-  /* line 99, _sass/_mobile.scss */
+  /* line 102, _sass/_mobile.scss */
   .site article .meta-info .entry-tags {
     margin-top: 10px;
     width: auto;
   }
-  /* line 105, _sass/_mobile.scss */
+  /* line 108, _sass/_mobile.scss */
   .site article .entry-content {
     float: none;
     width: 100%;
   }
-  /* line 109, _sass/_mobile.scss */
+  /* line 112, _sass/_mobile.scss */
+  .site article .entry-content p, .site article .entry-content ul, .site article .entry-content ol {
+    padding: 0 20px;
+  }
+  /* line 119, _sass/_mobile.scss */
   .site article .entry-content .wp-caption {
     width: 100% !important;
     margin-left: 0;
   }
-  /* line 113, _sass/_mobile.scss */
+  /* line 123, _sass/_mobile.scss */
   .site article .entry-content .wp-caption.alignleft {
     float: none;
     margin: 30px 0 0 0;
   }
-  /* line 118, _sass/_mobile.scss */
+  /* line 128, _sass/_mobile.scss */
   .site article .entry-content .wp-caption img {
     max-width: 100%;
     height: auto;
   }
-  /* line 123, _sass/_mobile.scss */
+  /* line 133, _sass/_mobile.scss */
   .site article .entry-content .wp-caption .wp-caption-text {
     text-indent: 0;
   }
-  /* line 129, _sass/_mobile.scss */
+  /* line 139, _sass/_mobile.scss */
   .site article .entry-content blockquote.smallquote {
     width: auto;
     float: none;
   }
-  /* line 139, _sass/_mobile.scss */
+  /* line 149, _sass/_mobile.scss */
   .site .navigate-search {
     padding: 0px 20px 0;
     margin-top: 10px;
     width: auto;
   }
-  /* line 144, _sass/_mobile.scss */
+  /* line 154, _sass/_mobile.scss */
   .site .navigate-search .navigate-left, .site .navigate-search .navigate-right {
     width: auto;
     float: none;
     margin: 10px 0;
   }
-  /* line 150, _sass/_mobile.scss */
+  /* line 160, _sass/_mobile.scss */
   .site .navigate-search .navigate-search-form {
     float: none;
     margin-left: 0;
   }
-  /* line 156, _sass/_mobile.scss */
+  /* line 166, _sass/_mobile.scss */
   .site #searchform {
     width: 90%;
     margin: 0 auto;
   }
-  /* line 159, _sass/_mobile.scss */
+  /* line 169, _sass/_mobile.scss */
   .site #searchform #s {
     width: 80%;
   }
-  /* line 167, _sass/_mobile.scss */
+  /* line 177, _sass/_mobile.scss */
   .site footer .footer-info .footer-inner .footer-column {
     float: none;
     width: 90%;
     margin: 10px auto;
   }
-  /* line 177, _sass/_mobile.scss */
+  /* line 187, _sass/_mobile.scss */
   .site footer .footer-copyright {
     max-width: 90%;
   }
-  /* line 183, _sass/_mobile.scss */
+  /* line 193, _sass/_mobile.scss */
   .site .the-geeks .geek-image {
     float: none;
     width: auto;
     text-align: center;
     margin-right: 0;
   }
-  /* line 188, _sass/_mobile.scss */
+  /* line 198, _sass/_mobile.scss */
   .site .the-geeks .geek-image img {
     margin-bottom: 0;
   }
-  /* line 193, _sass/_mobile.scss */
+  /* line 203, _sass/_mobile.scss */
   .site .the-geeks .geek-info {
     float: none;
   }
-  /* line 196, _sass/_mobile.scss */
+  /* line 206, _sass/_mobile.scss */
   .site .the-geeks .geek-info h3 {
     text-align: center;
   }
-  /* line 200, _sass/_mobile.scss */
+  /* line 210, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul {
     text-align: center;
     height: auto;
     margin-top: -15px;
     margin-bottom: 20px;
   }
-  /* line 205, _sass/_mobile.scss */
+  /* line 215, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul li {
     float: none;
     display: inline-block;
