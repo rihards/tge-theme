@@ -8,17 +8,17 @@ Version: 1.0
 License: GNU General Public License
 */
 @import url(normalize.css);
-/* line 38, _sass/style.scss */
+/* line 39, _sass/style.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 42, _sass/style.scss */
+/* line 43, _sass/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 46, _sass/style.scss */
+/* line 47, _sass/style.scss */
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -68,22 +68,22 @@ textarea, input {
 
 /* line 34, _sass/_desktop.scss */
 ::-webkit-input-placeholder {
-  color: #e2e2e2;
+  color: #777777;
 }
 
 /* line 35, _sass/_desktop.scss */
 :-moz-placeholder {
-  color: #e2e2e2;
+  color: #777777;
 }
 
 /* line 36, _sass/_desktop.scss */
 ::-moz-placeholder {
-  color: #e2e2e2;
+  color: #777777;
 }
 
 /* line 37, _sass/_desktop.scss */
 :-ms-input-placeholder {
-  color: #e2e2e2;
+  color: #777777;
 }
 
 /* line 47, _sass/_desktop.scss */
@@ -296,7 +296,7 @@ textarea, input {
   font-size: 3.2rem;
   line-height: 40px;
   line-height: 4rem;
-  color: #2f2f2f;
+  color: #333333;
   font-style: italic;
 }
 /* line 252, _sass/_desktop.scss */
@@ -478,7 +478,7 @@ textarea, input {
 }
 /* line 432, _sass/_desktop.scss */
 .the-geeks ul li a:hover .some {
-  fill: #2f2f2f;
+  fill: #333333;
 }
 /* line 437, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary {
@@ -614,7 +614,7 @@ footer .footer-follow li {
 }
 /* line 560, _sass/_desktop.scss */
 footer .footer-follow li a:hover .some {
-  fill: #2f2f2f;
+  fill: #333333;
 }
 /* line 566, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary {

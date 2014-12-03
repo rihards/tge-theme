@@ -31,10 +31,10 @@ h2 {
 textarea, input { outline: none; }
 
 // Crazy selector stuff
-::-webkit-input-placeholder { color: $inactive-color; }
-:-moz-placeholder { color: $inactive-color; }
-::-moz-placeholder { color: $inactive-color; }
-:-ms-input-placeholder { color: $inactive-color; }
+::-webkit-input-placeholder { color: $light-gray; }
+:-moz-placeholder { color: $light-gray; }
+::-moz-placeholder { color: $light-gray; }
+:-ms-input-placeholder { color: $light-gray; }
 
 
 // General .site stuff
