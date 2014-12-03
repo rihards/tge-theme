@@ -389,13 +389,14 @@ textarea, input {
   float: left;
   margin-right: 1rem;
   margin-right: 10px;
+  margin-top: 3px;
 }
-/* line 349, _sass/_desktop.scss */
+/* line 350, _sass/_desktop.scss */
 #searchform .search-icon svg {
   height: 44px;
   width: 44px;
 }
-/* line 355, _sass/_desktop.scss */
+/* line 356, _sass/_desktop.scss */
 #searchform #s {
   border: none;
   color: #55e8a9;
@@ -407,14 +408,14 @@ textarea, input {
   width: 37.8rem;
   padding: 4px;
   background-color: #333333;
-  margin-top: 2px;
+  margin-top: 6px;
 }
-/* line 368, _sass/_desktop.scss */
+/* line 369, _sass/_desktop.scss */
 #searchform #searchsubmit {
   display: none;
 }
 
-/* line 374, _sass/_desktop.scss */
+/* line 375, _sass/_desktop.scss */
 #disqus_thread {
   max-width: 960px;
   max-width: 96rem;
@@ -423,74 +424,74 @@ textarea, input {
   margin: 0 auto;
 }
 
-/* line 385, _sass/_desktop.scss */
+/* line 386, _sass/_desktop.scss */
 .page h1.entry-title {
   margin-bottom: 0;
 }
-/* line 390, _sass/_desktop.scss */
+/* line 391, _sass/_desktop.scss */
 .page p a {
   color: #55e8a9;
   text-decoration: underline;
   transition: color 0.4s ease-in-out 0s;
 }
-/* line 394, _sass/_desktop.scss */
+/* line 395, _sass/_desktop.scss */
 .page p a:hover {
   color: #e2e2e2;
 }
 
-/* line 402, _sass/_desktop.scss */
+/* line 403, _sass/_desktop.scss */
 .the-geeks {
   margin-top: 30px;
 }
-/* line 404, _sass/_desktop.scss */
+/* line 405, _sass/_desktop.scss */
 .the-geeks h2 {
   font-size: 32px;
   font-size: 3.2rem;
 }
-/* line 409, _sass/_desktop.scss */
+/* line 410, _sass/_desktop.scss */
 .the-geeks h3 {
   color: #333333;
   font-size: 26px;
   font-size: 2.6rem;
 }
-/* line 415, _sass/_desktop.scss */
+/* line 416, _sass/_desktop.scss */
 .the-geeks img {
   margin-bottom: 30px;
   border-radius: 50%;
   width: 210px;
   height: 210px;
 }
-/* line 422, _sass/_desktop.scss */
+/* line 423, _sass/_desktop.scss */
 .the-geeks ul {
   margin: 0;
   padding: 0;
   list-style: none none;
   height: 74px;
 }
-/* line 426, _sass/_desktop.scss */
+/* line 427, _sass/_desktop.scss */
 .the-geeks ul li {
   float: left;
   margin-right: 14px;
 }
-/* line 429, _sass/_desktop.scss */
+/* line 430, _sass/_desktop.scss */
 .the-geeks ul li a {
   text-decoration: none;
 }
-/* line 432, _sass/_desktop.scss */
+/* line 433, _sass/_desktop.scss */
 .the-geeks ul li a:hover .some {
   fill: #333333;
 }
-/* line 437, _sass/_desktop.scss */
+/* line 438, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary {
   width: 44px;
   height: 44px;
 }
-/* line 440, _sass/_desktop.scss */
+/* line 441, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary .some {
   transition: fill 0.4s ease-in-out 0s;
   fill: #55e8a9;
 }
-/* line 448, _sass/_desktop.scss */
+/* line 449, _sass/_desktop.scss */
 .the-geeks .geek-image {
   width: 240px;
   width: 24rem;
@@ -498,24 +499,24 @@ textarea, input {
   margin-right: 2.5rem;
   float: left;
 }
-/* line 456, _sass/_desktop.scss */
+/* line 457, _sass/_desktop.scss */
 .the-geeks .geek-info {
   float: left;
   max-width: 645px;
   max-width: 64.5rem;
 }
 
-/* line 464, _sass/_desktop.scss */
+/* line 465, _sass/_desktop.scss */
 footer {
   color: #fff;
   background-color: #55e8a9;
 }
-/* line 468, _sass/_desktop.scss */
+/* line 469, _sass/_desktop.scss */
 footer #footer-logo, footer .footer-info, footer .footer-follow, footer .footer-copyright {
   background: #55e8a9 url(images/gradient-green.png) bottom repeat-x;
   padding-bottom: 60px;
 }
-/* line 473, _sass/_desktop.scss */
+/* line 474, _sass/_desktop.scss */
 footer h3 {
   color: #fff;
   text-align: center;
@@ -524,7 +525,7 @@ footer h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-/* line 482, _sass/_desktop.scss */
+/* line 483, _sass/_desktop.scss */
 footer p {
   color: #333333;
   text-align: center;
@@ -534,12 +535,12 @@ footer p {
   line-height: 24px;
   line-height: 2.4rem;
 }
-/* line 492, _sass/_desktop.scss */
+/* line 493, _sass/_desktop.scss */
 footer #footer-logo {
   padding-top: 40px;
   padding-top: 4rem;
 }
-/* line 495, _sass/_desktop.scss */
+/* line 496, _sass/_desktop.scss */
 footer #footer-logo a {
   display: block;
   width: 124px;
@@ -550,17 +551,17 @@ footer #footer-logo a {
   background-image: url(images/tge-white.svg);
   margin: 0 auto;
 }
-/* line 502, _sass/_desktop.scss */
+/* line 503, _sass/_desktop.scss */
 footer .footer-info {
   padding-bottom: 34px;
 }
-/* line 505, _sass/_desktop.scss */
+/* line 506, _sass/_desktop.scss */
 footer .footer-info .footer-inner {
   max-width: 960px;
   max-width: 96rem;
   margin: 0 auto;
 }
-/* line 511, _sass/_desktop.scss */
+/* line 512, _sass/_desktop.scss */
 footer .footer-info .footer-column {
   width: 215px;
   width: 21.5rem;
@@ -568,37 +569,37 @@ footer .footer-info .footer-column {
   margin-right: 25px;
   margin-right: 2.5rem;
 }
-/* line 518, _sass/_desktop.scss */
+/* line 519, _sass/_desktop.scss */
 footer .footer-info .footer-column:last-child {
   margin-right: 0;
 }
-/* line 523, _sass/_desktop.scss */
+/* line 524, _sass/_desktop.scss */
 footer .footer-info p {
   max-width: 190px;
   max-width: 19rem;
 }
-/* line 528, _sass/_desktop.scss */
+/* line 529, _sass/_desktop.scss */
 footer .footer-info a {
   color: #333333;
 }
-/* line 531, _sass/_desktop.scss */
+/* line 532, _sass/_desktop.scss */
 footer .footer-info a:hover {
   color: #fff;
 }
-/* line 535, _sass/_desktop.scss */
+/* line 536, _sass/_desktop.scss */
 footer .footer-info a.footer-more {
   color: #fff;
 }
-/* line 537, _sass/_desktop.scss */
+/* line 538, _sass/_desktop.scss */
 footer .footer-info a.footer-more:hover {
   color: #333333;
 }
-/* line 544, _sass/_desktop.scss */
+/* line 545, _sass/_desktop.scss */
 footer .footer-follow {
   text-align: center;
   padding-bottom: 34px;
 }
-/* line 547, _sass/_desktop.scss */
+/* line 548, _sass/_desktop.scss */
 footer .footer-follow ul {
   margin: 0;
   padding: 0;
@@ -606,27 +607,27 @@ footer .footer-follow ul {
   margin: 0 auto 20px auto;
   display: inline-block;
 }
-/* line 553, _sass/_desktop.scss */
+/* line 554, _sass/_desktop.scss */
 footer .footer-follow li {
   text-align: left;
   float: left;
   margin: 0 6px;
 }
-/* line 560, _sass/_desktop.scss */
+/* line 561, _sass/_desktop.scss */
 footer .footer-follow li a:hover .some {
   fill: #333333;
 }
-/* line 566, _sass/_desktop.scss */
+/* line 567, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary {
   width: 42px;
   height: 42px;
 }
-/* line 569, _sass/_desktop.scss */
+/* line 570, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary .some {
   fill: #ffffff;
   transition: fill 0.4s ease-in-out 0s;
 }
-/* line 577, _sass/_desktop.scss */
+/* line 578, _sass/_desktop.scss */
 footer .footer-copyright {
   background-image: none;
   padding-bottom: 40px;
