@@ -78,7 +78,9 @@ textarea, input { outline: none; }
 		#nav-first {
 			width: 110px;
 		}
-		#nav-second {}
+		#nav-second {
+			width: 257px;
+		}
 		#nav-third {
 			text-align: right;
 		}
@@ -86,11 +88,13 @@ textarea, input { outline: none; }
 			text-align: right;
 			width: 118px;
 		}
-
-		#tge-home a {
-			@include image-replace(#fff, 124px, 66px);
-			background-image: url(images/tge-green.svg);
-			margin: 0 auto;
+		#tge-home {
+			width: 124px;
+			a {
+				@include image-replace(#fff, 124px, 66px);
+				background-image: url(images/tge-green.svg);
+				margin: 0 auto;
+			}
 		}
 	}
 
