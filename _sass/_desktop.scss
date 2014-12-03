@@ -113,6 +113,11 @@ textarea, input { outline: none; }
 			width: 45rem;
 			width: 450px;
 			margin: 20px auto 20px;
+			#s {
+				padding: 4px;
+				background-color: $main-text-color;
+				margin-top: 6px;
+			}
 		}
 	}
 
@@ -287,6 +292,16 @@ textarea, input { outline: none; }
 			line-height: 2.4rem;
 		}
 	}
+	#searchform {
+		::-webkit-input-placeholder { color: $hilight-text-color; }
+		:-moz-placeholder { color: $hilight-text-color; }
+		::-moz-placeholder { color: $hilight-text-color; }
+		:-ms-input-placeholder { color: $hilight-text-color; }
+
+		#s {
+			border-bottom: 5px solid $supporting-color;
+		}
+	}
 }
 
 .navigate-search {
@@ -366,9 +381,6 @@ textarea, input { outline: none; }
 		line-height: 2.8rem;
 		width: 378px;
 		width: 37.8rem;
-		padding: 4px;
-		background-color: $main-text-color;
-		margin-top: 6px;
 	}
 	#searchsubmit {
 		display: none;
