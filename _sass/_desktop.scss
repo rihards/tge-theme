@@ -173,6 +173,7 @@ textarea, input { outline: none; }
 	a {
 		color: $link-color;
 		text-decoration: underline;
+		transition: color 0.4s ease-in-out 0s;
 		&:hover {
 			color: $inactive-color;
 		}
@@ -378,6 +379,7 @@ textarea, input { outline: none; }
 		a {
 			color: $link-color;
 			text-decoration: underline;
+			transition: color 0.4s ease-in-out 0s;
 			&:hover {
 				color: $inactive-color;
 			}
@@ -415,11 +417,17 @@ textarea, input { outline: none; }
 			margin-right: 14px;
 			a {
 				text-decoration: none;
+				&:hover {
+					.some {
+						fill: $dark-grey;
+					}
+				}
 			}
 			.icon-primary {
 				width: 44px;
 				height: 44px;
 				.some {
+					transition: fill 0.4s ease-in-out 0s;
 					fill: $supporting-color;
 				}
 			}
@@ -536,11 +544,20 @@ footer {
 			float: left;
 			margin: 0 6px;
 
+			a {
+				&:hover {
+					.some {
+						fill: $dark-grey;
+					}
+				}
+			}
+
 			.icon-primary {
 				width: 42px;
 				height: 42px;
 				.some {
 					fill: #ffffff;
+					transition: fill 0.4s ease-in-out 0s;
 				}
 			}
 		}
