@@ -394,6 +394,15 @@ textarea, input { outline: none; }
 	width: 960px;
 	width: 96rem;
 	margin: 0 auto;
+
+	a {
+		color: $link-color;
+		text-decoration: underline;
+		transition: color 0.4s ease-in-out 0s;
+		&:hover {
+			color: $inactive-color;
+		}
+	}
 }
 
 
