@@ -241,7 +241,7 @@ textarea, input {
 }
 /* line 189, _sass/_desktop.scss */
 .entry-entry a:hover {
-  color: #e2e2e2;
+  color: #333333;
 }
 
 /* line 195, _sass/_desktop.scss */
@@ -462,7 +462,7 @@ textarea, input {
 }
 /* line 402, _sass/_desktop.scss */
 #disqus_thread a:hover {
-  color: #e2e2e2;
+  color: #333333;
 }
 
 /* line 411, _sass/_desktop.scss */
@@ -477,7 +477,7 @@ textarea, input {
 }
 /* line 420, _sass/_desktop.scss */
 .page p a:hover {
-  color: #e2e2e2;
+  color: #333333;
 }
 
 /* line 428, _sass/_desktop.scss */

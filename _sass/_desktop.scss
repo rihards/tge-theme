@@ -187,7 +187,7 @@ textarea, input { outline: none; }
 		text-decoration: underline;
 		transition: color 0.4s ease-in-out 0s;
 		&:hover {
-			color: $inactive-color;
+			color: $dark-grey;
 		}
 	}
 }
@@ -400,7 +400,7 @@ textarea, input { outline: none; }
 		text-decoration: underline;
 		transition: color 0.4s ease-in-out 0s;
 		&:hover {
-			color: $inactive-color;
+			color: $dark-grey;
 		}
 	}
 }
@@ -418,7 +418,7 @@ textarea, input { outline: none; }
 			text-decoration: underline;
 			transition: color 0.4s ease-in-out 0s;
 			&:hover {
-				color: $inactive-color;
+				color: $dark-grey;
 			}
 		}
 	}
