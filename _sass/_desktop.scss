@@ -179,11 +179,12 @@ textarea, input { outline: none; }
 .entry-entry {
 
 	a {
-		color: $link-color;
-		text-decoration: underline;
-		transition: color 0.4s ease-in-out 0s;
+		color: $dark-grey;
+		text-decoration: none;
+		border-bottom: 1px solid $dark-grey;
+		transition: border 0.4s ease-in-out 0s;
 		&:hover {
-			color: $dark-grey;
+			border-bottom-color: $link-color;
 		}
 	}
 }
@@ -195,17 +196,18 @@ textarea, input { outline: none; }
 	width: 165px;
 	line-height: 2.4rem;
 	font-size: 1.6rem;
-}
+	font-family: $font-stack-headers;
 
-.author-and-date p {
-	margin: 0;
-}
+	.author-and-date p {
+		margin: 0;
+	}
 
-.entry-tags {
-	margin-top: 50px;
-	width: 165px;
-	line-height: 1.4em;
-	color: $link-color;
+	.entry-tags {
+		margin-top: 50px;
+		width: 165px;
+		line-height: 1.4em;
+		color: $dark-grey;
+	}
 }
 
 .entry-content {
