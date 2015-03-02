@@ -1,15 +1,17 @@
 // Global typography stuff
 html {
-	font: 62.5% "news-gothic-std", "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed",  "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "Arial Narrow", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font: 62.5% "ff-tisa-web-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 body {
 	font-size: 20px;
 	font-size: 2rem;
+	color: $dark-grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: $hilight-text-color;
+	font-family: "effra", "times new roman", times, georgia, serif;
 	font-weight: normal;
 }
 
@@ -101,7 +103,7 @@ textarea, input { outline: none; }
 	#filter, #nav-search {
 		display: none;
 		background-color: $main-text-color;
-    -moz-box-shadow: inset  0  10px 10px -10px #000000, inset  0 -10px 10px -10px #000000;
+		-moz-box-shadow: inset  0  10px 10px -10px #000000, inset  0 -10px 10px -10px #000000;
 		-webkit-box-shadow: inset  0  10px 10px -10px #000000, inset  0 -10px 10px -10px #000000;
 		box-shadow: inset  0  10px 10px -10px #000000, inset  0 -10px 10px -10px #000000;
 		padding: 5px 20px;
