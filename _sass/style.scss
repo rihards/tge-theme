@@ -19,6 +19,10 @@ $inactive-color: #e2e2e2;
 $light-gray: #777777;
 $dark-grey: #333333;
 
+// Font stacks
+$font-stack-body: "ff-tisa-web-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$font-stack-headers: "effra", "times new roman", times, georgia, serif;
+
 // And some mixins
 @mixin reset-margin-padding {
 	margin: 0;

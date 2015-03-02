@@ -1,6 +1,6 @@
 // Global typography stuff
 html {
-	font: 62.5% "ff-tisa-web-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font: 62.5% $font-stack-body;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: $hilight-text-color;
-	font-family: "effra", "times new roman", times, georgia, serif;
+	font-family: $font-stack-headers;
 	font-weight: 300;
 }
 

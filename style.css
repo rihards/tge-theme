@@ -8,17 +8,17 @@ Version: 1.0
 License: GNU General Public License
 */
 @import url(normalize.css);
-/* line 39, _sass/style.scss */
+/* line 43, _sass/style.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 43, _sass/style.scss */
+/* line 47, _sass/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 47, _sass/style.scss */
+/* line 51, _sass/style.scss */
 .clearfix:after {
   content: ".";
   visibility: hidden;
