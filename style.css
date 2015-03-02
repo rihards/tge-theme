@@ -8,17 +8,17 @@ Version: 1.0
 License: GNU General Public License
 */
 @import url(normalize.css);
-/* line 43, _sass/style.scss */
+/* line 44, _sass/style.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 47, _sass/style.scss */
+/* line 48, _sass/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 51, _sass/style.scss */
+/* line 52, _sass/style.scss */
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -29,7 +29,7 @@ html {
 
 /* line 2, _sass/_desktop.scss */
 html {
-  font: 62.5% "ff-tisa-web-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font: 62.5% "effra", "times new roman", times, georgia, serif;
 }
 
 /* line 6, _sass/_desktop.scss */
