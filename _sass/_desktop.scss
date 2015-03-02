@@ -4,7 +4,6 @@ html {
 }
 
 body {
-	font-size: 20px;
 	font-size: 2rem;
 	color: $dark-grey;
 }
@@ -16,8 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 40px;
-	font-size: 4rem;
+	font-size: 5rem;
 	text-align: center;
 	a {
 		color: $hilight-text-color;
@@ -28,7 +26,6 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
 	font-size: 3.2rem;
 }
 
@@ -71,11 +68,9 @@ textarea, input { outline: none; }
 
 			a {
 				color: $main-text-color;
-				font-size: 20px;
 				font-size: 2rem;
 				text-decoration: none;
 				text-transform: uppercase;
-				letter-spacing: 3px;
 				letter-spacing: 0.3rem;
 			}
 		}
@@ -116,7 +111,6 @@ textarea, input { outline: none; }
 		padding: 5px 20px;
 		form {
 			width: 45rem;
-			width: 450px;
 			margin: 20px auto 20px;
 			#s {
 				padding: 4px;
@@ -143,9 +137,7 @@ textarea, input { outline: none; }
 					text-decoration: none;
 					text-transform: uppercase;
 					letter-spacing: 2px;
-					line-height: 46px;
 					line-height: 4.6rem;
-					font-size: 16px;
 					font-size: 1.6rem;
 					&.tag-selected {
 						background-color: $supporting-color;
@@ -167,7 +159,6 @@ textarea, input { outline: none; }
 // Content area
 
 .post-divider {
-	margin-top: 30px;
 	margin-top: 3rem;
 	height: 32px;
 	background: url(images/gradient-white.png) top repeat-x;
@@ -202,9 +193,7 @@ textarea, input { outline: none; }
 	margin-left: 50px;
 	float: left;
 	width: 165px;
-	line-height: 24px;
 	line-height: 2.4rem;
-	font-size: 16px;
 	font-size: 1.6rem;
 }
 
@@ -225,19 +214,14 @@ textarea, input { outline: none; }
 
 	> p {
 		&:first-child {
-			font-size: 26px;
 			font-size: 2.6rem;
-			line-height: 32px;
-			line-height: 3.2rem;    
+			line-height: 3.2rem;
 		}
 	}
 
 	p {
-		font-size: 20px;
 		font-size: 2rem;
-		line-height: 32px;
 		line-height: 3.2rem;
-		max-width: 645px;
 		max-width: 64.5rem;
 	}
 
@@ -254,9 +238,7 @@ textarea, input { outline: none; }
 		}
 
 		p {
-			font-size: 32px;
 			font-size: 3.2rem;
-			line-height: 40px;
 			line-height: 4rem;
 			color: $dark-grey;
 			font-style: italic;
@@ -264,14 +246,11 @@ textarea, input { outline: none; }
 	}
 
 	.lead {
-		font-size: 26px;
 		font-size: 2.6rem;
-		line-height: 32px;
 		line-height: 3.2rem;
 	}
 
 	.more-link {
-		font-size: 24px;
 		font-size: 2.4rem;
 	}
 
@@ -281,19 +260,14 @@ textarea, input { outline: none; }
 
 		&.alignleft {
 			width: 465px;
-			margin-left: -265px;
+			margin: 10px 50px 20px -265px;
 			float: left;
-			margin-right: 50px;
-			margin-top: 10px;
-			margin-bottom: 20px;
 		}
 
 		.wp-caption-text {
 			text-indent: 50px;
 			font-style: italic;
-			font-size: 16px;
 			font-size: 1.6rem;
-			line-height: 24px;
 			line-height: 2.4rem;
 		}
 	}
@@ -324,14 +298,11 @@ textarea, input { outline: none; }
 
 	.navigate-search-form {
 		float: left;
-		max-width: 430px;
 		max-width: 43rem;
-		margin-left: 50px;
 		margin-left: 5rem;
 	}
 
 	.navigate-right {
-		margin-left: 50px;
 		margin-left: 5rem;
 		text-align: right;
 	}
@@ -340,7 +311,6 @@ textarea, input { outline: none; }
 
 .btn-active, .btn-inactive {
 	a {
-		font-size: 26px;
 		font-size: 2.6rem;
 		padding: 14px 50px;
 		color: #ffffff;
@@ -369,7 +339,6 @@ textarea, input { outline: none; }
 	.search-icon {
 		float: left;
 		margin-right: 1rem;
-		margin-right: 10px;
 		margin-top: 3px;
 		svg {
 			height: 44px;
@@ -380,11 +349,8 @@ textarea, input { outline: none; }
 	#s {
 		border: none;
 		color: $hilight-text-color;
-		font-size: 24px;
 		font-size: 2.4rem;
-		line-height: 28px;
 		line-height: 2.8rem;
-		width: 378px;
 		width: 37.8rem;
 	}
 	#searchsubmit {
@@ -394,9 +360,7 @@ textarea, input { outline: none; }
 
 // Comments
 #disqus_thread {
-	max-width: 960px;
 	max-width: 96rem;
-	width: 960px;
 	width: 96rem;
 	margin: 0 auto;
 
@@ -433,13 +397,11 @@ textarea, input { outline: none; }
 .the-geeks {
 	margin-top: 30px;
 	h2 {
-		font-size: 32px;
 		font-size: 3.2rem;
 	}
 
 	h3 {
 		color: $main-text-color;
-		font-size: 26px;
 		font-size: 2.6rem;
 	}
 
@@ -477,16 +439,13 @@ textarea, input { outline: none; }
 	}
 
 	.geek-image {
-		width: 240px;
 		width: 24rem;
-		margin-right: 25px;
 		margin-right: 2.5rem;
 		float: left;
 	}
 
 	.geek-info {
 		float: left;
-		max-width: 645px;
 		max-width: 64.5rem;
 	}
 }
@@ -504,7 +463,6 @@ footer {
 	h3 {
 		color: #fff;
 		text-align: center;
-		font-size: 20px;
 		font-size: 2rem;
 		text-transform: uppercase;
 		letter-spacing: 3px;
@@ -514,14 +472,11 @@ footer {
 		color: $main-text-color;
 		text-align: center;
 		margin: 10px auto;
-		font-size: 16px;
 		font-size: 1.6rem;
-		line-height: 24px;
 		line-height: 2.4rem;
 	}
 
 	#footer-logo {
-		padding-top: 40px;
 		padding-top: 4rem;
 		a {
 			@include image-replace($supporting-color, 124px, 66px);
@@ -534,16 +489,13 @@ footer {
 		padding-bottom: 34px;
 
 		.footer-inner {
-			max-width: 960px;
 			max-width: 96rem;
 			margin: 0 auto;
 		}
 
 		.footer-column {
-			width: 215px;
 			width: 21.5rem;
 			float: left;
-			margin-right: 25px;
 			margin-right: 2.5rem;
 
 			&:last-child {
@@ -552,7 +504,6 @@ footer {
 		}
 
 		p {
-			max-width: 190px;
 			max-width: 19rem;
 		}
 
@@ -609,7 +560,6 @@ footer {
 		background-image: none;
 		padding-bottom: 40px;
 		color: #fff;
-		font-size: 16px;
 		font-size: 1.6rem;
 		margin-bottom: 0;
 	}
