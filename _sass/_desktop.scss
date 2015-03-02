@@ -12,15 +12,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	color: $hilight-text-color;
 	font-family: "effra", "times new roman", times, georgia, serif;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 h1 {
 	font-size: 40px;
 	font-size: 4rem;
+	text-align: center;
 	a {
 		color: $hilight-text-color;
 		text-decoration: none;
+		text-transform: uppercase;
 	}
 }
 
