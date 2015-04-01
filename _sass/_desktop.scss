@@ -230,22 +230,37 @@ textarea, input { outline: none; }
 	}
 
 	blockquote {
-		background-color: $supporting-color;
 		padding: 10px 40px;
+		width: 960px;
+		margin-left: -265px;
+		quotes: "“" "”" "‘" "’";
 
 		&.smallquote {
 			width: 365px;
 			float: right;
+			margin-left: 0;
 			&:after {
 				clear: right;
 			}
 		}
 
 		p {
+			quotes: "“" "”" "‘" "’";
 			font-size: 3.2rem;
+			text-transform: uppercase;
+			letter-spacing: 2px;
 			line-height: 4rem;
 			color: $dark-grey;
-			font-style: italic;
+			max-width: 100%;
+			text-indent: -14px;
+
+			&:before {
+				content: open-quote;
+			}
+
+			&:after {
+				content: close-quote;
+			}
 		}
 	}
 
