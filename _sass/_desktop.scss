@@ -70,6 +70,8 @@ textarea, input { outline: none; }
 			a {
 				color: $main-text-color;
 				font-size: 2rem;
+				font-family: $font-stack-headers;
+				font-weight: 300;
 				text-decoration: none;
 				text-transform: uppercase;
 				letter-spacing: 0.3rem;
@@ -247,8 +249,10 @@ textarea, input { outline: none; }
 		p {
 			quotes: "“" "”" "‘" "’";
 			font-size: 3.2rem;
+			font-family: $font-stack-headers;
+			font-weight: 300;
 			text-transform: uppercase;
-			letter-spacing: 2px;
+			letter-spacing: 8px;
 			line-height: 4rem;
 			color: $dark-grey;
 			max-width: 100%;
@@ -309,6 +313,8 @@ textarea, input { outline: none; }
 	.navigate-left, .navigate-right {
 		width: 215px;
 		float: right;
+		font-family: $font-stack-headers;
+		font-weight: 300;
 	}
 
 	.navigate-left {

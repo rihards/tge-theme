@@ -115,32 +115,34 @@ textarea, input {
 .site .header .navigation a {
   color: #333333;
   font-size: 2rem;
+  font-family: "effra", "times new roman", times, georgia, serif;
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
-/* line 79, _sass/_desktop.scss */
+/* line 81, _sass/_desktop.scss */
 .site .header #nav-first {
   width: 110px;
 }
-/* line 82, _sass/_desktop.scss */
+/* line 84, _sass/_desktop.scss */
 .site .header #nav-second {
   width: 257px;
 }
-/* line 85, _sass/_desktop.scss */
+/* line 87, _sass/_desktop.scss */
 .site .header #nav-third {
   text-align: right;
 }
-/* line 88, _sass/_desktop.scss */
+/* line 90, _sass/_desktop.scss */
 .site .header #nav-forth {
   text-align: right;
   width: 118px;
 }
-/* line 92, _sass/_desktop.scss */
+/* line 94, _sass/_desktop.scss */
 .site .header #tge-home {
   width: 124px;
 }
-/* line 94, _sass/_desktop.scss */
+/* line 96, _sass/_desktop.scss */
 .site .header #tge-home a {
   display: block;
   width: 124px;
@@ -151,7 +153,7 @@ textarea, input {
   background-image: url(images/tge-green.svg);
   margin: 0 auto;
 }
-/* line 102, _sass/_desktop.scss */
+/* line 104, _sass/_desktop.scss */
 .site #filter, .site #nav-search {
   display: none;
   background-color: #333333;
@@ -160,33 +162,33 @@ textarea, input {
   box-shadow: inset  0  10px 10px -10px #000000, inset  0 -10px 10px -10px #000000;
   padding: 5px 20px;
 }
-/* line 111, _sass/_desktop.scss */
+/* line 113, _sass/_desktop.scss */
 .site #nav-search {
   padding: 5px 20px;
 }
-/* line 113, _sass/_desktop.scss */
+/* line 115, _sass/_desktop.scss */
 .site #nav-search form {
   width: 45rem;
   margin: 20px auto 20px;
 }
-/* line 116, _sass/_desktop.scss */
+/* line 118, _sass/_desktop.scss */
 .site #nav-search form #s {
   padding: 4px;
   background-color: #333333;
   margin-top: 6px;
 }
-/* line 126, _sass/_desktop.scss */
+/* line 128, _sass/_desktop.scss */
 .site #filter ul {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 131, _sass/_desktop.scss */
+/* line 133, _sass/_desktop.scss */
 .site #filter ul li {
   display: inline-block;
   margin: 0 5px;
 }
-/* line 135, _sass/_desktop.scss */
+/* line 137, _sass/_desktop.scss */
 .site #filter ul li a {
   color: #55e8a9;
   padding: 10px 25px;
@@ -196,53 +198,53 @@ textarea, input {
   line-height: 4.6rem;
   font-size: 1.6rem;
 }
-/* line 143, _sass/_desktop.scss */
+/* line 145, _sass/_desktop.scss */
 .site #filter ul li a.tag-selected {
   background-color: #55e8a9;
   color: #fff;
   border-radius: 22px;
 }
-/* line 154, _sass/_desktop.scss */
+/* line 156, _sass/_desktop.scss */
 .site article, .site .header {
   max-width: 960px;
   margin: 0 auto;
 }
 
-/* line 162, _sass/_desktop.scss */
+/* line 164, _sass/_desktop.scss */
 .post-divider {
   margin-top: 3rem;
   height: 32px;
   background: url(images/gradient-white.png) top repeat-x;
 }
 
-/* line 168, _sass/_desktop.scss */
+/* line 170, _sass/_desktop.scss */
 .no-top-divider {
   margin-top: 0;
 }
 
-/* line 172, _sass/_desktop.scss */
+/* line 174, _sass/_desktop.scss */
 .entry-title {
   margin-left: 50px;
 }
 
-/* line 176, _sass/_desktop.scss */
+/* line 178, _sass/_desktop.scss */
 .post-thumbnail {
   margin-bottom: 10px;
 }
 
-/* line 182, _sass/_desktop.scss */
+/* line 184, _sass/_desktop.scss */
 .entry-entry a {
   color: #333333;
   text-decoration: none;
   border-bottom: 1px solid #333333;
   transition: border 0.4s ease-in-out 0s;
 }
-/* line 187, _sass/_desktop.scss */
+/* line 189, _sass/_desktop.scss */
 .entry-entry a:hover {
   border-bottom-color: #55e8a9;
 }
 
-/* line 193, _sass/_desktop.scss */
+/* line 195, _sass/_desktop.scss */
 .meta-info {
   margin-top: 30px;
   margin-left: 50px;
@@ -252,11 +254,11 @@ textarea, input {
   font-size: 1.6rem;
   font-family: "effra", "times new roman", times, georgia, serif;
 }
-/* line 202, _sass/_desktop.scss */
+/* line 204, _sass/_desktop.scss */
 .meta-info .author-and-date p {
   margin: 0;
 }
-/* line 206, _sass/_desktop.scss */
+/* line 208, _sass/_desktop.scss */
 .meta-info .entry-tags {
   margin-top: 50px;
   width: 165px;
@@ -264,127 +266,131 @@ textarea, input {
   color: #333333;
 }
 
-/* line 214, _sass/_desktop.scss */
+/* line 216, _sass/_desktop.scss */
 .entry-content {
   width: 695px;
   float: right;
 }
-/* line 219, _sass/_desktop.scss */
+/* line 221, _sass/_desktop.scss */
 .entry-content > p:first-child {
   font-size: 2.6rem;
   line-height: 3.2rem;
   font-weight: 300;
 }
-/* line 226, _sass/_desktop.scss */
+/* line 228, _sass/_desktop.scss */
 .entry-content p {
   font-size: 2rem;
   line-height: 3.2rem;
   max-width: 64.5rem;
 }
-/* line 232, _sass/_desktop.scss */
+/* line 234, _sass/_desktop.scss */
 .entry-content blockquote {
   padding: 10px 40px;
   width: 960px;
   margin-left: -265px;
   quotes: "“" "”" "‘" "’";
 }
-/* line 238, _sass/_desktop.scss */
+/* line 240, _sass/_desktop.scss */
 .entry-content blockquote.smallquote {
   width: 365px;
   float: right;
   margin-left: 0;
 }
-/* line 242, _sass/_desktop.scss */
+/* line 244, _sass/_desktop.scss */
 .entry-content blockquote.smallquote:after {
   clear: right;
 }
-/* line 247, _sass/_desktop.scss */
+/* line 249, _sass/_desktop.scss */
 .entry-content blockquote p {
   quotes: "“" "”" "‘" "’";
   font-size: 3.2rem;
+  font-family: "effra", "times new roman", times, georgia, serif;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 8px;
   line-height: 4rem;
   color: #333333;
   max-width: 100%;
   text-indent: -14px;
 }
-/* line 257, _sass/_desktop.scss */
+/* line 261, _sass/_desktop.scss */
 .entry-content blockquote p:before {
   content: open-quote;
 }
-/* line 261, _sass/_desktop.scss */
+/* line 265, _sass/_desktop.scss */
 .entry-content blockquote p:after {
   content: close-quote;
 }
-/* line 267, _sass/_desktop.scss */
+/* line 271, _sass/_desktop.scss */
 .entry-content .lead {
   font-size: 2.6rem;
   line-height: 3.2rem;
 }
-/* line 272, _sass/_desktop.scss */
+/* line 276, _sass/_desktop.scss */
 .entry-content .more-link {
   font-size: 2.4rem;
 }
-/* line 276, _sass/_desktop.scss */
+/* line 280, _sass/_desktop.scss */
 .entry-content .wp-caption {
   margin-top: 40px;
   margin-left: -50px;
 }
-/* line 280, _sass/_desktop.scss */
+/* line 284, _sass/_desktop.scss */
 .entry-content .wp-caption.alignleft {
   width: 465px;
   margin: 10px 50px 20px -265px;
   float: left;
 }
-/* line 286, _sass/_desktop.scss */
+/* line 290, _sass/_desktop.scss */
 .entry-content .wp-caption .wp-caption-text {
   text-indent: 50px;
   font-style: italic;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
-/* line 294, _sass/_desktop.scss */
+/* line 298, _sass/_desktop.scss */
 .entry-content #searchform ::-webkit-input-placeholder {
   color: #55e8a9;
 }
-/* line 295, _sass/_desktop.scss */
+/* line 299, _sass/_desktop.scss */
 .entry-content #searchform :-moz-placeholder {
   color: #55e8a9;
 }
-/* line 296, _sass/_desktop.scss */
+/* line 300, _sass/_desktop.scss */
 .entry-content #searchform ::-moz-placeholder {
   color: #55e8a9;
 }
-/* line 297, _sass/_desktop.scss */
+/* line 301, _sass/_desktop.scss */
 .entry-content #searchform :-ms-input-placeholder {
   color: #55e8a9;
 }
-/* line 299, _sass/_desktop.scss */
+/* line 303, _sass/_desktop.scss */
 .entry-content #searchform #s {
   border-bottom: 5px solid #55e8a9;
 }
 
-/* line 305, _sass/_desktop.scss */
+/* line 309, _sass/_desktop.scss */
 .navigate-search {
   margin: 40px auto;
   width: 960px;
 }
-/* line 309, _sass/_desktop.scss */
+/* line 313, _sass/_desktop.scss */
 .navigate-search .navigate-left, .navigate-search .navigate-right {
   width: 215px;
   float: right;
+  font-family: "effra", "times new roman", times, georgia, serif;
+  font-weight: 300;
 }
-/* line 314, _sass/_desktop.scss */
+/* line 320, _sass/_desktop.scss */
 .navigate-search .navigate-left {
   float: left;
 }
-/* line 318, _sass/_desktop.scss */
+/* line 324, _sass/_desktop.scss */
 .navigate-search .navigate-right {
   text-align: right;
 }
 
-/* line 325, _sass/_desktop.scss */
+/* line 331, _sass/_desktop.scss */
 .btn-active a, .btn-inactive a {
   font-size: 2.6rem;
   padding: 14px 50px;
@@ -393,32 +399,32 @@ textarea, input {
   text-decoration: none;
 }
 
-/* line 335, _sass/_desktop.scss */
+/* line 341, _sass/_desktop.scss */
 .btn-active a {
   background-color: #55e8a9;
 }
 
-/* line 341, _sass/_desktop.scss */
+/* line 347, _sass/_desktop.scss */
 .btn-inactive a {
   background-color: #e2e2e2;
 }
 
-/* line 348, _sass/_desktop.scss */
+/* line 354, _sass/_desktop.scss */
 #searchform label {
   display: none;
 }
-/* line 351, _sass/_desktop.scss */
+/* line 357, _sass/_desktop.scss */
 #searchform .search-icon {
   float: left;
   margin-right: 1rem;
   margin-top: 3px;
 }
-/* line 355, _sass/_desktop.scss */
+/* line 361, _sass/_desktop.scss */
 #searchform .search-icon svg {
   height: 44px;
   width: 44px;
 }
-/* line 361, _sass/_desktop.scss */
+/* line 367, _sass/_desktop.scss */
 #searchform #s {
   border: none;
   color: #55e8a9;
@@ -426,116 +432,116 @@ textarea, input {
   line-height: 2.8rem;
   width: 37.8rem;
 }
-/* line 368, _sass/_desktop.scss */
+/* line 374, _sass/_desktop.scss */
 #searchform #searchsubmit {
   display: none;
 }
 
-/* line 374, _sass/_desktop.scss */
+/* line 380, _sass/_desktop.scss */
 #disqus_thread {
   max-width: 96rem;
   width: 96rem;
   margin: 0 auto;
 }
-/* line 379, _sass/_desktop.scss */
+/* line 385, _sass/_desktop.scss */
 #disqus_thread a {
   color: #55e8a9;
   text-decoration: underline;
   transition: color 0.4s ease-in-out 0s;
 }
-/* line 383, _sass/_desktop.scss */
+/* line 389, _sass/_desktop.scss */
 #disqus_thread a:hover {
   color: #333333;
 }
 
-/* line 392, _sass/_desktop.scss */
+/* line 398, _sass/_desktop.scss */
 .page h1.entry-title {
   margin-bottom: 0;
 }
-/* line 397, _sass/_desktop.scss */
+/* line 403, _sass/_desktop.scss */
 .page p a {
   color: #55e8a9;
   text-decoration: underline;
   transition: color 0.4s ease-in-out 0s;
 }
-/* line 401, _sass/_desktop.scss */
+/* line 407, _sass/_desktop.scss */
 .page p a:hover {
   color: #333333;
 }
 
-/* line 409, _sass/_desktop.scss */
+/* line 415, _sass/_desktop.scss */
 .the-geeks {
   margin-top: 30px;
 }
-/* line 411, _sass/_desktop.scss */
+/* line 417, _sass/_desktop.scss */
 .the-geeks h2 {
   font-size: 3.2rem;
 }
-/* line 415, _sass/_desktop.scss */
+/* line 421, _sass/_desktop.scss */
 .the-geeks h3 {
   color: #333333;
   font-size: 2.6rem;
 }
-/* line 420, _sass/_desktop.scss */
+/* line 426, _sass/_desktop.scss */
 .the-geeks img {
   margin-bottom: 30px;
   border-radius: 50%;
   width: 210px;
   height: 210px;
 }
-/* line 427, _sass/_desktop.scss */
+/* line 433, _sass/_desktop.scss */
 .the-geeks ul {
   margin: 0;
   padding: 0;
   list-style: none none;
   height: 74px;
 }
-/* line 431, _sass/_desktop.scss */
+/* line 437, _sass/_desktop.scss */
 .the-geeks ul li {
   float: left;
   margin-right: 14px;
 }
-/* line 434, _sass/_desktop.scss */
+/* line 440, _sass/_desktop.scss */
 .the-geeks ul li a {
   text-decoration: none;
 }
-/* line 437, _sass/_desktop.scss */
+/* line 443, _sass/_desktop.scss */
 .the-geeks ul li a:hover .some {
   fill: #333333;
 }
-/* line 442, _sass/_desktop.scss */
+/* line 448, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary {
   width: 44px;
   height: 44px;
 }
-/* line 445, _sass/_desktop.scss */
+/* line 451, _sass/_desktop.scss */
 .the-geeks ul li .icon-primary .some {
   transition: fill 0.4s ease-in-out 0s;
   fill: #55e8a9;
 }
-/* line 453, _sass/_desktop.scss */
+/* line 459, _sass/_desktop.scss */
 .the-geeks .geek-image {
   width: 24rem;
   margin-right: 2.5rem;
   float: left;
 }
-/* line 459, _sass/_desktop.scss */
+/* line 465, _sass/_desktop.scss */
 .the-geeks .geek-info {
   float: left;
   max-width: 64.5rem;
 }
 
-/* line 466, _sass/_desktop.scss */
+/* line 472, _sass/_desktop.scss */
 footer {
   color: #fff;
   background-color: #55e8a9;
 }
-/* line 470, _sass/_desktop.scss */
+/* line 476, _sass/_desktop.scss */
 footer #footer-logo, footer .footer-info, footer .footer-follow, footer .footer-copyright {
   background: #55e8a9 url(images/gradient-green.png) bottom repeat-x;
   padding-bottom: 60px;
 }
-/* line 475, _sass/_desktop.scss */
+/* line 481, _sass/_desktop.scss */
 footer h3 {
   color: #fff;
   text-align: center;
@@ -543,7 +549,7 @@ footer h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-/* line 483, _sass/_desktop.scss */
+/* line 489, _sass/_desktop.scss */
 footer p {
   color: #333333;
   text-align: center;
@@ -551,11 +557,11 @@ footer p {
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
-/* line 491, _sass/_desktop.scss */
+/* line 497, _sass/_desktop.scss */
 footer #footer-logo {
   padding-top: 4rem;
 }
-/* line 493, _sass/_desktop.scss */
+/* line 499, _sass/_desktop.scss */
 footer #footer-logo a {
   display: block;
   width: 124px;
@@ -566,51 +572,51 @@ footer #footer-logo a {
   background-image: url(images/tge-white.svg);
   margin: 0 auto;
 }
-/* line 500, _sass/_desktop.scss */
+/* line 506, _sass/_desktop.scss */
 footer .footer-info {
   padding-bottom: 34px;
 }
-/* line 503, _sass/_desktop.scss */
+/* line 509, _sass/_desktop.scss */
 footer .footer-info .footer-inner {
   max-width: 96rem;
   margin: 0 auto;
 }
-/* line 508, _sass/_desktop.scss */
+/* line 514, _sass/_desktop.scss */
 footer .footer-info .footer-column {
   width: 21.5rem;
   float: left;
   margin-right: 2.5rem;
 }
-/* line 513, _sass/_desktop.scss */
+/* line 519, _sass/_desktop.scss */
 footer .footer-info .footer-column:last-child {
   margin-right: 0;
 }
-/* line 518, _sass/_desktop.scss */
+/* line 524, _sass/_desktop.scss */
 footer .footer-info p {
   max-width: 19rem;
 }
-/* line 522, _sass/_desktop.scss */
+/* line 528, _sass/_desktop.scss */
 footer .footer-info a {
   color: #333333;
 }
-/* line 525, _sass/_desktop.scss */
+/* line 531, _sass/_desktop.scss */
 footer .footer-info a:hover {
   color: #fff;
 }
-/* line 529, _sass/_desktop.scss */
+/* line 535, _sass/_desktop.scss */
 footer .footer-info a.footer-more {
   color: #fff;
 }
-/* line 531, _sass/_desktop.scss */
+/* line 537, _sass/_desktop.scss */
 footer .footer-info a.footer-more:hover {
   color: #333333;
 }
-/* line 538, _sass/_desktop.scss */
+/* line 544, _sass/_desktop.scss */
 footer .footer-follow {
   text-align: center;
   padding-bottom: 34px;
 }
-/* line 541, _sass/_desktop.scss */
+/* line 547, _sass/_desktop.scss */
 footer .footer-follow ul {
   margin: 0;
   padding: 0;
@@ -618,27 +624,27 @@ footer .footer-follow ul {
   margin: 0 auto 20px auto;
   display: inline-block;
 }
-/* line 547, _sass/_desktop.scss */
+/* line 553, _sass/_desktop.scss */
 footer .footer-follow li {
   text-align: left;
   float: left;
   margin: 0 6px;
 }
-/* line 554, _sass/_desktop.scss */
+/* line 560, _sass/_desktop.scss */
 footer .footer-follow li a:hover .some {
   fill: #333333;
 }
-/* line 560, _sass/_desktop.scss */
+/* line 566, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary {
   width: 42px;
   height: 42px;
 }
-/* line 563, _sass/_desktop.scss */
+/* line 569, _sass/_desktop.scss */
 footer .footer-follow li .icon-primary .some {
   fill: #ffffff;
   transition: fill 0.4s ease-in-out 0s;
 }
-/* line 571, _sass/_desktop.scss */
+/* line 577, _sass/_desktop.scss */
 footer .footer-copyright {
   background-image: none;
   padding-bottom: 40px;
