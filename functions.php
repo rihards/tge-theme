@@ -80,9 +80,9 @@ function tge_setup() {
 	// Adds RSS feed links to <head> for posts and comments.
 	add_theme_support('automatic-feed-links');
 
-	// Featured image, unlimited height, soft crop
+	// Featured image, crop it to 16:9, hard crop from center center
 	add_theme_support('post-thumbnails');
-	set_post_thumbnail_size(960, 9999);
+	set_post_thumbnail_size(960, 544, array('center', 'center'));
 }
 add_action('after_setup_theme', 'tge_setup');
 
