@@ -21,7 +21,6 @@
 			<div class="navigate-left">
 				<?php if(!is_singular() && !is_tag()) { echo '<span class="btn-inactive">' . get_previous_posts_link(__('Newer', 'tge-theme')) . '</span>'; } ?> &nbsp;
 			</div>
-			<div class="navigate-search-form"><?php //get_search_form(); ?></div>
 			<div class="navigate-right">
 				<?php if(!is_singular() && !is_tag()) { echo '<span class="btn-active">' . get_next_posts_link(__('Older', 'tge-theme')) . '</span>'; } ?> &nbsp;
 			</div>

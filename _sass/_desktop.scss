@@ -293,21 +293,14 @@ textarea, input { outline: none; }
 
 	.navigate-left, .navigate-right {
 		width: 215px;
-		float: left;
+		float: right;
 	}
 
 	.navigate-left {
-
-	}
-
-	.navigate-search-form {
 		float: left;
-		max-width: 43rem;
-		margin-left: 5rem;
 	}
 
 	.navigate-right {
-		margin-left: 5rem;
 		text-align: right;
 	}
 }
