@@ -236,11 +236,13 @@ textarea, input { outline: none; }
 		width: 960px;
 		margin-left: -265px;
 		quotes: "“" "”" "‘" "’";
+		clear: both;
 
 		&.smallquote {
 			width: 365px;
 			float: right;
 			margin-left: 50px;
+			clear: none;
 			&:after {
 				clear: right;
 			}
