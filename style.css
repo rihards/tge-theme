@@ -97,7 +97,7 @@ textarea, input {
 .site .header .navigation {
   margin: 40px auto 50px auto;
   display: table;
-  width: 860px;
+  width: 960px;
 }
 /* line 59, _sass/_desktop.scss */
 .site .header .navigation ul {
@@ -123,11 +123,11 @@ textarea, input {
 }
 /* line 81, _sass/_desktop.scss */
 .site .header #nav-first {
-  width: 110px;
+  width: 137px;
 }
 /* line 84, _sass/_desktop.scss */
 .site .header #nav-second {
-  width: 257px;
+  width: 282px;
 }
 /* line 87, _sass/_desktop.scss */
 .site .header #nav-third {
@@ -136,7 +136,7 @@ textarea, input {
 /* line 90, _sass/_desktop.scss */
 .site .header #nav-forth {
   text-align: right;
-  width: 118px;
+  width: 139px;
 }
 /* line 94, _sass/_desktop.scss */
 .site .header #tge-home {

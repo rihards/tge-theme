@@ -54,7 +54,7 @@ textarea, input { outline: none; }
 		.navigation {
 			margin: 40px auto 50px auto;
 			display: table;
-			width: 860px;
+			width: 960px;
 
 			ul {
 				@include reset-margin-padding;
@@ -79,17 +79,17 @@ textarea, input { outline: none; }
 		}
 
 		#nav-first {
-			width: 110px;
+			width: 137px;
 		}
 		#nav-second {
-			width: 257px;
+			width: 282px;
 		}
 		#nav-third {
 			text-align: right;
 		}
 		#nav-forth {
 			text-align: right;
-			width: 118px;
+			width: 139px;
 		}
 		#tge-home {
 			width: 124px;
