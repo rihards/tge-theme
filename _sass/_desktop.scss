@@ -232,7 +232,7 @@ textarea, input { outline: none; }
 	}
 
 	blockquote {
-		padding: 10px 40px;
+		padding: 10px 0;
 		width: 960px;
 		margin-left: -265px;
 		quotes: "“" "”" "‘" "’";
@@ -240,7 +240,7 @@ textarea, input { outline: none; }
 		&.smallquote {
 			width: 365px;
 			float: right;
-			margin-left: 0;
+			margin-left: 50px;
 			&:after {
 				clear: right;
 			}

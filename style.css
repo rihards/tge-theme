@@ -285,7 +285,7 @@ textarea, input {
 }
 /* line 234, _sass/_desktop.scss */
 .entry-content blockquote {
-  padding: 10px 40px;
+  padding: 10px 0;
   width: 960px;
   margin-left: -265px;
   quotes: "“" "”" "‘" "’";
@@ -294,7 +294,7 @@ textarea, input {
 .entry-content blockquote.smallquote {
   width: 365px;
   float: right;
-  margin-left: 0;
+  margin-left: 50px;
 }
 /* line 244, _sass/_desktop.scss */
 .entry-content blockquote.smallquote:after {
