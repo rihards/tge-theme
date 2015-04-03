@@ -115,9 +115,6 @@
 					padding: 0 20px;
 				}
 
-				blockquote {
-				}
-
 				.wp-caption {
 					width: 100% !important; //damn inline widths
 					margin-left: 0;
@@ -138,6 +135,8 @@
 				}
 
 				blockquote {
+					width: auto;
+					margin: 0 20px;
 					&.smallquote {
 						width: auto;
 						float: none;

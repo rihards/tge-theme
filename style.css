@@ -769,98 +769,103 @@ footer .footer-copyright {
   .site article .entry-content p, .site article .entry-content ul, .site article .entry-content ol {
     padding: 0 20px;
   }
-  /* line 121, _sass/_mobile.scss */
+  /* line 118, _sass/_mobile.scss */
   .site article .entry-content .wp-caption {
     width: 100% !important;
     margin-left: 0;
   }
-  /* line 125, _sass/_mobile.scss */
+  /* line 122, _sass/_mobile.scss */
   .site article .entry-content .wp-caption.alignleft {
     float: none;
     margin: 30px 0 0 0;
   }
-  /* line 130, _sass/_mobile.scss */
+  /* line 127, _sass/_mobile.scss */
   .site article .entry-content .wp-caption img {
     max-width: 100%;
     height: auto;
   }
-  /* line 135, _sass/_mobile.scss */
+  /* line 132, _sass/_mobile.scss */
   .site article .entry-content .wp-caption .wp-caption-text {
     text-indent: 0;
   }
-  /* line 141, _sass/_mobile.scss */
+  /* line 137, _sass/_mobile.scss */
+  .site article .entry-content blockquote {
+    width: auto;
+    margin: 0 20px;
+  }
+  /* line 140, _sass/_mobile.scss */
   .site article .entry-content blockquote.smallquote {
     width: auto;
     float: none;
   }
-  /* line 151, _sass/_mobile.scss */
+  /* line 150, _sass/_mobile.scss */
   .site .navigate-search {
     padding: 0px 20px 0;
     margin-top: 10px;
     width: auto;
   }
-  /* line 156, _sass/_mobile.scss */
+  /* line 155, _sass/_mobile.scss */
   .site .navigate-search .navigate-left, .site .navigate-search .navigate-right {
     width: auto;
     float: none;
     margin: 10px 0;
   }
-  /* line 162, _sass/_mobile.scss */
+  /* line 161, _sass/_mobile.scss */
   .site .navigate-search .navigate-search-form {
     float: none;
     margin-left: 0;
   }
-  /* line 168, _sass/_mobile.scss */
+  /* line 167, _sass/_mobile.scss */
   .site #searchform {
     width: 90%;
     margin: 0 auto;
   }
-  /* line 171, _sass/_mobile.scss */
+  /* line 170, _sass/_mobile.scss */
   .site #searchform #s {
     width: 70%;
   }
-  /* line 179, _sass/_mobile.scss */
+  /* line 178, _sass/_mobile.scss */
   .site footer .footer-info .footer-inner .footer-column {
     float: none;
     width: 90%;
     margin: 10px auto;
   }
-  /* line 189, _sass/_mobile.scss */
+  /* line 188, _sass/_mobile.scss */
   .site footer .footer-copyright {
     max-width: 90%;
   }
-  /* line 195, _sass/_mobile.scss */
+  /* line 194, _sass/_mobile.scss */
   .site .the-geeks .geek-image {
     float: none;
     width: auto;
     text-align: center;
     margin-right: 0;
   }
-  /* line 200, _sass/_mobile.scss */
+  /* line 199, _sass/_mobile.scss */
   .site .the-geeks .geek-image img {
     margin-bottom: 0;
   }
-  /* line 205, _sass/_mobile.scss */
+  /* line 204, _sass/_mobile.scss */
   .site .the-geeks .geek-info {
     float: none;
   }
-  /* line 208, _sass/_mobile.scss */
+  /* line 207, _sass/_mobile.scss */
   .site .the-geeks .geek-info h3 {
     text-align: center;
   }
-  /* line 212, _sass/_mobile.scss */
+  /* line 211, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul {
     text-align: center;
     height: auto;
     margin-top: -15px;
     margin-bottom: 20px;
   }
-  /* line 217, _sass/_mobile.scss */
+  /* line 216, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul li {
     float: none;
     display: inline-block;
   }
-  /* line 225, _sass/_mobile.scss */
+  /* line 224, _sass/_mobile.scss */
   .site #disqus_thread {
     max-width: 94%;
     width: 94%;
