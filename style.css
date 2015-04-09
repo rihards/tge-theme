@@ -861,7 +861,7 @@ footer .footer-copyright {
   .site .the-geeks .geek-info ul {
     text-align: center;
     height: auto;
-    margin-top: -15px;
+    margin-top: 0;
     margin-bottom: 20px;
   }
   /* line 220, _sass/_mobile.scss */
