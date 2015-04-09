@@ -854,18 +854,22 @@ footer .footer-copyright {
     text-align: center;
   }
   /* line 211, _sass/_mobile.scss */
+  .site .the-geeks .geek-info p {
+    padding: 0 20px;
+  }
+  /* line 215, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul {
     text-align: center;
     height: auto;
     margin-top: -15px;
     margin-bottom: 20px;
   }
-  /* line 216, _sass/_mobile.scss */
+  /* line 220, _sass/_mobile.scss */
   .site .the-geeks .geek-info ul li {
     float: none;
     display: inline-block;
   }
-  /* line 224, _sass/_mobile.scss */
+  /* line 228, _sass/_mobile.scss */
   .site #disqus_thread {
     max-width: 94%;
     width: 94%;
